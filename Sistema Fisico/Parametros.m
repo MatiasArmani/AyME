@@ -29,6 +29,7 @@ L_q = 5.8E-3;   %Inductancia de estator (eje en cuadratura)
 L_d = 6.6E-3;   %Inductancia de estator (eje directo)
 L_ls = 0.8E-3;  %Inductancia de dispersión de estator
 Rs = 1.02;      %Resistencia de estator, por fase. Valor nominal para una Tref = 20°C
+Tsref = 20;
 alfa_cu = 3.9E-3; %Coef. aumento de Rs con T°s
 C_ts = 0.818;   %Capacitancia térmica de estator. Almacenamiento interno de calor.
 R_tsamb = 146.7;%Resistencia térmica estator-ambiente. Disipación al ambiente.
