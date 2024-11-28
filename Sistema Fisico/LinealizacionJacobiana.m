@@ -3,7 +3,7 @@ clc, clear, close
 % Definir las variables simbólicas
 syms theta_m(t) omega_m(t) i_qs(t) i_ds(t) i_0s(t) T_s(t) % Variables de estado
 syms J_eq P_p L_d L_q lambda_m b_eq g k_l r T_ld(t)       % Parámetros del sistema
-syms v_qs(t) v_ds(t) v_0s(t) R_s L_ls C_ts R_ts_amb T_amb(t) % Parámetros adicionales
+syms v_qs(t) v_ds(t) v_0s(t) R_s R_s_ref alpha_cu Ts_ref L_ls C_ts R_ts_amb T_amb(t) % Parámetros adicionales
 
 % Definir las expresiones de las ecuaciones (a la derecha del =)
 f1 = omega_m(t); % Primera ecuación: theta_m_dot = omega_m(t)
@@ -33,7 +33,14 @@ B0d_matrix = sym(zeros(length(equations), length(inputs_disturbance))); % Matriz
 % Calcular derivadas parciales para A0 (respecto a los estados)
 for i = 1:length(equations)
     for j = 1:length(states)
-        jacobian_matrix(i, j) = diff(equations(i), states(j));
+        if j == 6  % Si estamos derivando respecto al estado T_s(t)
+            % Reemplazar R_s con su expresión completa solo cuando derivamos respecto a T_s(t)
+            equations_with_R_s = equations(i);
+            equations_with_R_s = subs(equations_with_R_s, R_s, R_s_ref * (1 + alpha_cu * (T_s(t) - Ts_ref)));
+            jacobian_matrix(i, j) = diff(equations_with_R_s, states(j)); % Derivada parcial con la expresión completa de R_s
+        else
+            jacobian_matrix(i, j) = diff(equations(i), states(j)); % Derivada normal
+        end
     end
 end
 
