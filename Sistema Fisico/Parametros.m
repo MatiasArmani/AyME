@@ -53,6 +53,9 @@ f_e = -330:df:330;
 J_eq = J_m + J_l/(r^2);
 b_eq = b_m + b_l/(r^2);
 
+%% Condiciones Iniciales
+I_d0 = -0.5;
+
 function f = frecuencia(f_e,elemento)
     f = f_e(elemento);
 end
