@@ -56,6 +56,10 @@ b_eq = b_m + b_l/(r^2);
 %% Condiciones Iniciales
 I_d0 = 0;
 Tita_0 = pi/4;
+Ts_0 = 20;
+
+%% Parametros de simulacion
+Rs_condicion = 0;
 
 function f = frecuencia(f_e,elemento)
     f = f_e(elemento);
