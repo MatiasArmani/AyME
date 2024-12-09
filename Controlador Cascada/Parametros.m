@@ -61,6 +61,11 @@ Ts_0 = 20;
 %% Parametros de simulacion
 Rs_condicion = 0;
 
+%% Ganancias de Controlador 
+b_a = 1;
+K_sa = 1;
+K_sia = 1;
+
 function f = frecuencia(f_e,elemento)
     f = f_e(elemento);
 end
