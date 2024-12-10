@@ -57,6 +57,10 @@ b_eq = b_m + b_l/(r^2);
 I_d0 = 0;
 Tita_0 = pi/4;
 
+%% Observador
+Ke_w = 1.024e7;
+Ke_t = 6.4e3;
+
 function f = frecuencia(f_e,elemento)
     f = f_e(elemento);
 end
