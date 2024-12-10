@@ -1,78 +1,118 @@
-clc; clear; close all;
+% Script para análisis de migración de polos del controlador PID
+clear all; close all; clc;
 
-% Parámetros conocidos
-J_m = 14e-6; % Momento de inercia del motor [kg·m²]
-r = 120; % Relación de transmisión
-J_l_min = 0.0833; % Momento de inercia de carga mínimo [kg·m²]
-J_l_nom = 0.4583; % Momento de inercia de carga nominal [kg·m²]
-J_l_max = 0.4583; % Momento de inercia de carga máximo [kg·m²]
+% Parámetros constantes
+Jm = 14e-6;          % kg.m^2
+m = 1.0;             % kg
+lcm = 0.25;          % m
+Jcm = 0.0208;        % kg.m^2
+ll = 0.50;           % m
+r = 120;             % relación de reducción
+n = 2.5;             % parámetro de sintonía serie
+zeta = 0.75;         % amortiguamiento deseado
+wn = 800;            % frecuencia natural deseada (rad/s)
 
-% Parámetros del controlador PID
-omega_n = 800; % Frecuencia natural [rad/s]
-zeta = 0.75; % Factor de amortiguamiento
-n = 2.5; % Relación entre frecuencias características
+% Vector de masa de carga útil
+ml_vector = linspace(0, 0.375, 100);
+polos = zeros(length(ml_vector), 3); % Matriz para almacenar los polos
 
-% Cálculo de inercia equivalente
-J_eq_min = J_m + J_l_min / r^2; % J_eq mínimo
-J_eq_nom = J_m + J_l_nom / r^2; % J_eq nominal
-J_eq_max = J_m + J_l_max / r^2; % J_eq máximo
+% Cálculo de Jl y Jeq nominal (ml = 0)
+Jl_nom = (m*lcm^2 + Jcm) + 0*ll^2;
+Jeq_nom = Jm + Jl_nom/r^2;
 
-% Imprimir valores de J_eq para verificar que cambian
-fprintf('J_eq_min = %.4e kg·m²\n', J_eq_min);
-fprintf('J_eq_nom = %.4e kg·m²\n', J_eq_nom);
-fprintf('J_eq_max = %.4e kg·m²\n', J_eq_max);
+% Cálculo de ganancias con Jeq nominal (se mantienen fijas)
+ba = Jeq_nom * n * wn;
+Ksa = Jeq_nom * n * wn^2;
+Ksia = Jeq_nom * wn^3;
 
-% Calcular ganancias y polos para cada caso
-[b_a_nom, K_sa_nom, K_sia_nom, poles_nominal] = calculate_controller_gains(J_eq_nom, omega_n, n);
-[b_a_min, K_sa_min, K_sia_min, poles_min] = calculate_controller_gains(J_eq_min, omega_n, n);
-[b_a_max, K_sa_max, K_sia_max, poles_max] = calculate_controller_gains(J_eq_max, omega_n, n);
-
-% Imprimir resultados de las ganancias
-fprintf('Ganancias para J_eq_min:\n');
-fprintf('  b_a = %.4f Nm/(rad/s), K_sa = %.4f Nm/rad, K_sia = %.4f Nm/(rad·s)\n', b_a_min, K_sa_min, K_sia_min);
-fprintf('Ganancias para J_eq_nom:\n');
-fprintf('  b_a = %.4f Nm/(rad/s), K_sa = %.4f Nm/rad, K_sia = %.4f Nm/(rad·s)\n', b_a_nom, K_sa_nom, K_sia_nom);
-fprintf('Ganancias para J_eq_max:\n');
-fprintf('  b_a = %.4f Nm/(rad/s), K_sa = %.4f Nm/rad, K_sia = %.4f Nm/(rad·s)\n', b_a_max, K_sa_max, K_sia_max);
-
-% Imprimir polos para verificar que cambian
-fprintf('\nPolos para J_eq_min:\n');
-disp(poles_min);
-fprintf('Polos para J_eq_nom:\n');
-disp(poles_nominal);
-fprintf('Polos para J_eq_max:\n');
-disp(poles_max);
-
-% Graficar polos
-figure;
-hold on; grid on; axis equal;
-title('Migración de Polos del Controlador PID');
-xlabel('Re(s) [rad/s]');
-ylabel('Im(s) [rad/s]');
-
-% Ejes imaginarios y reales
-xline(0, '--k', 'Eje Real');
-yline(0, '--k', 'Eje Imaginario');
-
-% Marcar polos
-scatter(real(poles_min), imag(poles_min), 100, 'g', 'x', 'LineWidth', 2, 'DisplayName', 'Polos PID Mínimos');
-scatter(real(poles_nominal), imag(poles_nominal), 100, 'm', 'x', 'LineWidth', 2, 'DisplayName', 'Polos PID Nominales');
-scatter(real(poles_max), imag(poles_max), 100, 'c', 'x', 'LineWidth', 2, 'DisplayName', 'Polos PID Máximos');
-
-% Etiquetas y leyenda
-legend('Location', 'best');
-hold off;
-
-% Función para calcular ganancias y polos del controlador
-function [b_a, K_sa, K_sia, poles] = calculate_controller_gains(J_eq, omega_n, n)
-    % Ganancias del controlador
-    b_a = J_eq * n * omega_n; % Ganancia proporcional (velocidad)
-    K_sa = J_eq * n * omega_n^2; % Ganancia proporcional (posición)
-    K_sia = J_eq * omega_n^3; % Ganancia integral (posición)
+% Cálculo de polos para cada valor de ml
+for i = 1:length(ml_vector)
+    % Cálculo de nueva Jeq para cada ml
+    Jl = (m*lcm^2 + Jcm) + ml_vector(i)*ll^2;
+    Jeq = Jm + Jl/r^2;
     
-    % Polinomio característico del controlador: J_eq * s^3 + b_a * s^2 + K_sa * s + K_sia
-    poly_controller = [J_eq, b_a, K_sa, K_sia]; % Coeficientes [s^3, s^2, s, 1]
-    
-    % Raíces del polinomio característico (polos)
-    poles = roots(poly_controller);
+    % Polinomio característico con ganancias fijas y nueva Jeq
+    coef = [Jeq, ba, Ksa, Ksia];
+    polos(i,:) = roots(coef);
 end
+
+% Gráfico de migración de polos
+figure('Name', 'Migración de Polos')
+hold on; grid on;
+
+% Graficar trayectorias de polos del controlador
+plot(real(polos(:,1)), imag(polos(:,1)), 'b.', 'DisplayName', 'Polo 1')
+plot(real(polos(:,2)), imag(polos(:,2)), 'r.', 'DisplayName', 'Polo 2')
+plot(real(polos(:,3)), imag(polos(:,3)), 'g.', 'DisplayName', 'Polo 3')
+
+% Agregar polos de lazo abierto de la planta
+polo_planta1 = 0;
+polo_planta2 = complex(-88.5, 149.9);
+polo_planta3 = complex(-88.5, -149.9);
+
+plot(real(polo_planta1), imag(polo_planta1), 'ko', 'MarkerSize', 10, ...
+    'DisplayName', 'Polo planta = 0')
+plot(real(polo_planta2), imag(polo_planta2), 'ko', 'MarkerSize', 10, ...
+    'DisplayName', sprintf('Polos planta = -88.5 ± 149.9j'))
+plot(real(polo_planta3), imag(polo_planta3), 'ko', 'MarkerSize', 10, 'HandleVisibility', 'off')
+
+% Agregar polo del lazo de corriente
+polo_corriente = -5000;
+plot(polo_corriente, 0, 'mo', 'MarkerSize', 10, ...
+    'DisplayName', 'Polo lazo corriente = -5000')
+
+% Puntos límites para Jeq nominal (ml = 0)
+plot(real(polos(1,1)), imag(polos(1,1)), 'bs', 'MarkerSize', 10, ...
+    'DisplayName', sprintf('Polo 1 (nom) = %.2f', real(polos(1,1))))
+plot(real(polos(1,2)), imag(polos(1,2)), 'rs', 'MarkerSize', 10, ...
+    'DisplayName', sprintf('Polo 2,3 (nom) = %.2f ± %.2fi', real(polos(1,2)), abs(imag(polos(1,2)))))
+plot(real(polos(1,3)), imag(polos(1,3)), 'gs', 'MarkerSize', 10, 'HandleVisibility', 'off')
+
+% Puntos límites para Jeq máxima (ml = 0.375)
+plot(real(polos(end,1)), imag(polos(end,1)), 'bd', 'MarkerSize', 10, ...
+    'DisplayName', sprintf('Polo 1 (max) = %.2f', real(polos(end,1))))
+plot(real(polos(end,2)), imag(polos(end,2)), 'rd', 'MarkerSize', 10, ...
+    'DisplayName', sprintf('Polo 2,3 (max) = %.2f ± %.2fi', real(polos(end,2)), abs(imag(polos(end,2)))))
+plot(real(polos(end,3)), imag(polos(end,3)), 'gd', 'MarkerSize', 10, 'HandleVisibility', 'off')
+
+xlabel('Eje Real')
+ylabel('Eje Imaginario')
+title('Migración de polos al variar la masa de carga útil')
+legend('Location', 'best')
+
+% Hacer zoom en la región relevante (ajustar según necesidad)
+xlim([-850 -450])
+ylim([-800 800])
+
+% Agregar líneas de ejes
+plot([0 0], ylim, 'k--', 'HandleVisibility', 'off')
+plot(xlim, [0 0], 'k--', 'HandleVisibility', 'off')
+
+% Mostrar valores de polos para casos extremos
+disp('Polos para ml = 0:')
+disp(polos(1,:))
+disp('Polos para ml = 0.375:')
+disp(polos(end,:))
+
+% Cálculo de amortiguamiento y frecuencia natural efectivos
+for i = 1:length(ml_vector)
+    polo_complejo = polos(i,2); % Tomamos uno de los polos complejos conjugados
+    wn_eff(i) = abs(polo_complejo);
+    zeta_eff(i) = -real(polo_complejo)/wn_eff(i);
+end
+
+% Gráfico de variación de parámetros
+figure('Name', 'Variación de Parámetros')
+subplot(2,1,1)
+plot(ml_vector, wn_eff)
+grid on
+title('Frecuencia natural efectiva vs masa de carga')
+xlabel('Masa de carga [kg]')
+ylabel('\omega_n [rad/s]')
+
+subplot(2,1,2)
+plot(ml_vector, zeta_eff)
+grid on
+title('Amortiguamiento efectivo vs masa de carga')
+xlabel('Masa de carga [kg]')
+ylabel('\zeta')
