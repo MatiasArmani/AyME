@@ -66,6 +66,10 @@ b_a = 1;
 K_sa = 1;
 K_sia = 1;
 
+%% Observador
+Ke_w = 1.024e7;
+Ke_t = 6.4e3;
+
 function f = frecuencia(f_e,elemento)
     f = f_e(elemento);
 end
