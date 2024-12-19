@@ -55,7 +55,7 @@ b_eq = b_m + b_l/(r^2);
 
 %% Condiciones Iniciales
 I_d0 = 0;
-Tita_0 = pi/4;
+Tita_0 = 0;
 Ts_0 = 20;
 
 %% Parametros de simulacion
