@@ -72,31 +72,22 @@ Ke_t = 6.4e3;
 Ke_int = 3.2768e10;
 
 %% Sensores No Ideales
-% Parámetros para cada sensor
-wn_iabc = 7000;    % Frecuencia natural para sensores de corriente [rad/s]
-xi_iabc = 1;       % Factor de amortiguamiento para sensores de corriente
-
-wn_pos = 6000;     % Frecuencia natural para sensor de posición [rad/s]
-xi_pos = 1;        % Factor de amortiguamiento para sensor de posición
-
-tau = 20;          % Constante de tiempo para sensor de temperatura [s]
-
 % Matrices para sensores de corriente
-Sni_A_iabc = [0 -1; wn_iabc^2 -2*wn_iabc*xi_iabc];
+Sni_A_iabc = [0 -1; 36e6 -12000];
 Sni_B_iabc = [1; 0];
 Sni_C_iabc = [0 1];
 Sni_D_iabc = 0;
 
 % Matrices para sensor de posición
-Sni_A_pos = [0 -1; wn_pos^2 -2*wn_pos*xi_pos];
+Sni_A_pos = [0 -1; 25e6 -10000];
 Sni_B_pos = [1; 0];
 Sni_C_pos = [0 1];
 Sni_D_pos = 0;
 
 % Matrices para sensor de temperatura
-Sni_A_T = -1/tau;
+Sni_A_T = -0.05;
 Sni_B_T = 1;
-Sni_C_T = 1/tau;
+Sni_C_T = 0.05;
 Sni_D_T = 0;
 
 function f = frecuencia(f_e,elemento)
