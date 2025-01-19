@@ -73,10 +73,10 @@ Ke_int = 3.2768e10;
 
 %% Sensores No Ideales
 % Parámetros para cada sensor
-wn_iabc = 30000;    % Frecuencia natural para sensores de corriente [rad/s] min= 25800
+wn_iabc = 28000;    % Frecuencia natural para sensores de corriente [rad/s]
 xi_iabc = 1;       % Factor de amortiguamiento para sensores de corriente
 
-wn_pos = 40000;     % Frecuencia natural para sensor de posición [rad/s]
+wn_pos = 24200;     % Frecuencia natural para sensor de posición [rad/s]
 xi_pos = 1;        % Factor de amortiguamiento para sensor de posición
 
 tau = 20;          % Constante de tiempo para sensor de temperatura [s]
