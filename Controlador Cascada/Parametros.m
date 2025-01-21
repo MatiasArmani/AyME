@@ -99,6 +99,17 @@ Sni_B_T = 1;
 Sni_C_T = 1/tau;
 Sni_D_T = 0;
 
+%Parámetros para modulador de tensión No Ideal
+wn_mod = 6000;
+zita_mod = 1;
+V_slmax = 48;
+
+% Matrices para modulador de tension No Ideal
+Mni_A = [0 -1; wn_mod^2 -2*zita_mod*wn_mod];
+Mni_B = [1;0];
+Mni_C = [0 1];
+Mni_D = 0;
+
 function f = frecuencia(f_e,elemento)
     f = f_e(elemento);
 end
