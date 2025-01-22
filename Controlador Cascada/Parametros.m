@@ -73,7 +73,7 @@ Ke_int = 3.2768e10;
 
 %% Sensores No Ideales
 % Parámetros para cada sensor
-wn_iabc = 25800;    % Frecuencia natural para sensores de corriente [rad/s] min= 25800
+wn_iabc = 100000;    % Frecuencia natural para sensores de corriente [rad/s] min= 25800
 xi_iabc = 1;       % Factor de amortiguamiento para sensores de corriente
 
 wn_pos = 25000;     % Frecuencia natural para sensor de posición [rad/s]
@@ -111,7 +111,9 @@ Mni_C = [0 1];
 Mni_D = 0;
 
 %% Tiempo de muestreo para controlador discretizado
-Ts = 3.14E-5; 
+Ts = 1.25E-4; 
+
+%Ts = 3.14E-5; 
 
 function f = frecuencia(f_e,elemento)
     f = f_e(elemento);
