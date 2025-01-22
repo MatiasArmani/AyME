@@ -111,7 +111,7 @@ Mni_C = [0 1];
 Mni_D = 0;
 
 %% Tiempo de muestreo para controlador discretizado
-Ts = 1.25E-4; 
+Ts = 3.14E-5; 
 
 function f = frecuencia(f_e,elemento)
     f = f_e(elemento);
