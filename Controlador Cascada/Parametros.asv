@@ -73,10 +73,10 @@ Ke_int = 3.2768e10;
 
 %% Sensores No Ideales
 % Parámetros para cada sensor
-wn_iabc = 30000;    % Frecuencia natural para sensores de corriente [rad/s] min= 25800
+wn_iabc = 100000;    % Frecuencia natural para sensores de corriente [rad/s] min= 25800
 xi_iabc = 1;       % Factor de amortiguamiento para sensores de corriente
 
-wn_pos = 30000;     % Frecuencia natural para sensor de posición [rad/s]
+wn_pos = 25000;     % Frecuencia natural para sensor de posición [rad/s]
 xi_pos = 1;        % Factor de amortiguamiento para sensor de posición
 
 tau = 0.1;          % Constante de tiempo para sensor de temperatura [s]
@@ -100,7 +100,7 @@ Sni_C_T = 1/tau;
 Sni_D_T = 0;
 
 %Parámetros para modulador de tensión No Ideal
-wn_mod = 30000;
+wn_mod = 100000;
 zita_mod = 1;
 V_slmax = 48;
 
@@ -113,7 +113,6 @@ Mni_D = 0;
 %% Tiempo de muestreo para controlador discretizado
 %Ts = 1.25E-4; 
 
-%Ts = 3.14E-5;
 Ts = 1.25E-5; 
 
 function f = frecuencia(f_e,elemento)
