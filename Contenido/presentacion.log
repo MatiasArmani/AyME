@@ -1,0 +1,2611 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.18)  2 FEB 2025 11:14
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"d:/OneDrive - Universidad Nacional de Cuyo/8vo semestre/AyME/FINAL/AyME/Cont
+enido/presentacion.tex"
+
+(d:/OneDrive - Universidad Nacional de Cuyo/8vo semestre/AyME/FINAL/AyME/Conten
+ido/presentacion.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-07-20>
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
+Document Class: beamer 2024/01/06 v3.71 A class for typesetting presentations
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemodes.
+sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count190
+)
+\beamer@tempbox=\box52
+\beamer@tempcount=\count191
+\c@beamerpauses=\count192
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasedecode
+.sty
+\beamer@slideinframe=\count193
+\beamer@minimum=\count194
+\beamer@decode@box=\box53
+)
+\beamer@commentbox=\box54
+\beamer@modecount=\count195
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\headdp=\dimen141
+\footheight=\dimen142
+\sidebarheight=\dimen143
+\beamer@tempdim=\dimen144
+\beamer@finalheight=\dimen145
+\beamer@animht=\dimen146
+\beamer@animdp=\dimen147
+\beamer@animwd=\dimen148
+\beamer@leftmargin=\dimen149
+\beamer@rightmargin=\dimen150
+\beamer@leftsidebar=\dimen151
+\beamer@rightsidebar=\dimen152
+\beamer@boxsize=\dimen153
+\beamer@vboxoffset=\dimen154
+\beamer@descdefault=\dimen155
+\beamer@descriptionwidth=\dimen156
+\beamer@lastskip=\skip49
+\beamer@areabox=\box55
+\beamer@animcurrent=\box56
+\beamer@animshowbox=\box57
+\beamer@sectionbox=\box58
+\beamer@logobox=\box59
+\beamer@linebox=\box60
+\beamer@sectioncount=\count196
+\beamer@subsubsectionmax=\count197
+\beamer@subsectionmax=\count198
+\beamer@sectionmax=\count199
+\beamer@totalheads=\count266
+\beamer@headcounter=\count267
+\beamer@partstartpage=\count268
+\beamer@sectionstartpage=\count269
+\beamer@subsectionstartpage=\count270
+\beamer@animationtempa=\count271
+\beamer@animationtempb=\count272
+\beamer@xpos=\count273
+\beamer@ypos=\count274
+\beamer@ypos@offset=\count275
+\beamer@showpartnumber=\count276
+\beamer@currentsubsection=\count277
+\beamer@coveringdepth=\count278
+\beamer@sectionadjust=\count279
+\beamer@toclastsection=\count280
+\beamer@tocsectionnumber=\count281
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoption
+s.sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+))
+\beamer@paperwidth=\skip50
+\beamer@paperheight=\skip51
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count282
+\Gm@cntv=\count283
+\c@Gm@tempcnt=\count284
+\Gm@bindingoffset=\dimen157
+\Gm@wd@mp=\dimen158
+\Gm@odd@mp=\dimen159
+\Gm@even@mp=\dimen160
+\Gm@layoutwidth=\dimen161
+\Gm@layoutheight=\dimen162
+\Gm@layouthoffset=\dimen163
+\Gm@layoutvoffset=\dimen164
+\Gm@dimlist=\toks18
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen165
+\pgfutil@tempdimb=\dimen166
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box61
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+)))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex
+\pgf@x=\dimen167
+\pgf@xa=\dimen168
+\pgf@xb=\dimen169
+\pgf@xc=\dimen170
+\pgf@y=\dimen171
+\pgf@ya=\dimen172
+\pgf@yb=\dimen173
+\pgf@yc=\dimen174
+\c@pgf@counta=\count285
+\c@pgf@countb=\count286
+\c@pgf@countc=\count287
+\c@pgf@countd=\count288
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen175
+\pgfmath@count=\count289
+\pgfmath@box=\box62
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count290
+)))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen176
+\Gin@req@width=\dimen177
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen178
+\pgf@y=\dimen179
+\pgf@xa=\dimen180
+\pgf@ya=\dimen181
+\pgf@xb=\dimen182
+\pgf@yb=\dimen183
+\pgf@xc=\dimen184
+\pgf@yc=\dimen185
+\pgf@xd=\dimen186
+\pgf@yd=\dimen187
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count291
+\c@pgf@countb=\count292
+\c@pgf@countc=\count293
+\c@pgf@countd=\count294
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count295
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count296
+)))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count297
+\pgfsyssoftpath@bigbuffer@items=\count298
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen188
+\pgf@picmaxx=\dimen189
+\pgf@picminy=\dimen190
+\pgf@picmaxy=\dimen191
+\pgf@pathminx=\dimen192
+\pgf@pathmaxx=\dimen193
+\pgf@pathminy=\dimen194
+\pgf@pathmaxy=\dimen195
+\pgf@xx=\dimen196
+\pgf@xy=\dimen197
+\pgf@yx=\dimen198
+\pgf@yy=\dimen199
+\pgf@zx=\dimen256
+\pgf@zy=\dimen257
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen258
+\pgf@path@lasty=\dimen259
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen260
+\pgf@shorten@start@additional=\dimen261
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count299
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen262
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen263
+\pgf@pt@y=\dimen264
+\pgf@pt@temp=\dimen265
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen266
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen267
+\pgf@sys@shading@range@num=\count300
+\pgf@shadingcount=\count301
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box66
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolor.s
+ty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count302
+\XC@countmixins=\count303
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count304
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen268
+\Hy@linkcounter=\count305
+\Hy@pagecounter=\count306
+ (C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
+) (C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count307
+ (C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4040.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4040.
+Package hyperref Info: Option `implicit' set `false' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count308
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen269
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count309
+\Field@Width=\dimen270
+\Fld@charsize=\dimen271
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+\Hy@abspage=\count310
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+ (C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2024-07-10 v7.01j Hyperref driver for XeTeX
+\pdfm@box=\box67
+\c@Hy@AnnotLevel=\count311
+\HyField@AnnotCount=\count312
+\Fld@listcount=\count313
+\c@bookmark@seq@number=\count314
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaserequir
+es.sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecompat
+ibility.sty)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefont.s
+ty (C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks29
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\sansmath
+accent.sty
+Package: sansmathaccent 2020/01/31
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+Package: scrlfile 2024/10/24 v3.43 KOMA-Script package (file load hooks)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+Package: scrlfile-hook 2024/10/24 v3.43 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2024/10/24 v3.43 KOMA-Script package (logo)
+)))))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetransl
+ator.sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
+ty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemisc.s
+ty)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwoscr
+eens.sty)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoverla
+y.sty
+\beamer@argscount=\count315
+\beamer@lastskipcover=\skip52
+\beamer@trivlistdepth=\count316
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetitle.
+sty)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesectio
+n.sty
+\c@lecture=\count317
+\c@part=\count318
+\c@section=\count319
+\c@subsection=\count320
+\c@subsubsection=\count321
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframe.
+sty
+\beamer@framebox=\box68
+\beamer@frametitlebox=\box69
+\beamer@zoombox=\box70
+\beamer@zoomcount=\count322
+\beamer@zoomframecount=\count323
+\beamer@frametextheight=\dimen272
+\c@subsectionslide=\count324
+\beamer@frametopskip=\skip53
+\beamer@framebottomskip=\skip54
+\beamer@frametopskipautobreak=\skip55
+\beamer@framebottomskipautobreak=\skip56
+\beamer@envbody=\toks30
+\framewidth=\dimen273
+\c@framenumber=\count325
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseverbat
+im.sty
+\beamer@verbatimfileout=\write4
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframes
+ize.sty
+\beamer@splitbox=\box71
+\beamer@autobreakcount=\count326
+\beamer@autobreaklastheight=\dimen274
+\beamer@frametitletoks=\toks31
+\beamer@framesubtitletoks=\toks32
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframec
+omponents.sty
+\beamer@footins=\box72
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecolor.
+sty)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenotes.
+sty
+\beamer@frameboxcopy=\box73
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc.st
+y)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetempla
+tes.sty
+\beamer@sbttoks=\toks33
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseauxtem
+plates.sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseboxes.
+sty
+\bmb@box=\box74
+\bmb@colorbox=\box75
+\bmb@boxwidth=\dimen275
+\bmb@boxheight=\dimen276
+\bmb@prevheight=\dimen277
+\bmb@temp=\dimen278
+\bmb@dima=\dimen279
+\bmb@dimb=\dimen280
+\bmb@prevheight=\dimen281
+)
+\beamer@blockheadheight=\dimen282
+))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaselocals
+tructure.sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks34
+)
+\beamer@bibiconwidth=\skip57
+\c@figure=\count327
+\c@table=\count328
+\abovecaptionskip=\skip58
+\belowcaptionskip=\skip59
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
+tion.sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
+tionsymbols.tex)
+\beamer@section@min@dim=\dimen283
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetheore
+ms.sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen284
+))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen285
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count329
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count330
+\leftroot@=\count331
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count332
+\DOTSCASE@=\count333
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box76
+\strutbox@=\box77
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen286
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count334
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count335
+\dotsspace@=\muskip18
+\c@parentequation=\count336
+\dspbrk@lvl=\count337
+\tag@help=\toks36
+\row@=\count338
+\column@=\count339
+\maxfields@=\count340
+\andhelp@=\toks37
+\eqnshift@=\dimen287
+\alignsep@=\dimen288
+\tagshift@=\dimen289
+\tagwidth@=\dimen290
+\totwidth@=\dimen291
+\lineht@=\dimen292
+\@envbody=\toks38
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks40
+\thm@bodyfont=\toks41
+\thm@headfont=\toks42
+\thm@notefont=\toks43
+\thm@headpunct=\toks44
+\thm@preskip=\skip63
+\thm@postskip=\skip64
+\thm@headsep=\skip65
+\dth@everypar=\toks45
+)
+\c@theorem=\count341
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes
+.sty))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefau
+lt.sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemed
+efault.sty)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+default.sty)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+default.sty
+\beamer@dima=\dimen293
+\beamer@dimb=\dimen294
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+default.sty)))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks46
+\inpenc@posthook=\toks47
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/06/26 v24.7 The Babel package
+\babel@savecnt=\count342
+\U@D=\dimen295
+\l@unhyphenated=\language79
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
+\bbl@readstream=\read3
+LaTeX Info: Redefining \textlatin on input line 3930.
+\bbl@dirlevel=\count343
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
+df
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks48
+\es@quotdepth=\count344
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel
+-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen296
+\lightrulewidth=\dimen297
+\cmidrulewidth=\dimen298
+\belowrulesep=\dimen299
+\belowbottomsep=\dimen300
+\aboverulesep=\dimen301
+\abovetopsep=\dimen302
+\cmidrulesep=\dimen303
+\cmidrulekern=\dimen304
+\defaultaddspace=\dimen305
+\@cmidla=\count345
+\@cmidlb=\count346
+\@aboverulesep=\dimen306
+\@belowrulesep=\dimen307
+\@thisruleclass=\count347
+\@lastruleclass=\count348
+\@thisrulewidth=\dimen308
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
+\c@tracingmulticols=\count349
+\mult@box=\box78
+\multicol@leftmargin=\dimen309
+\c@unbalance=\count350
+\c@collectmore=\count351
+\doublecol@number=\count352
+\multicoltolerance=\count353
+\multicolpretolerance=\count354
+\full@width=\dimen310
+\page@free=\dimen311
+\premulticols=\dimen312
+\postmulticols=\dimen313
+\multicolsep=\skip66
+\multicolbaselineskip=\skip67
+\partial@page=\box79
+\last@line=\box80
+\mc@boxedresult=\box81
+\maxbalancingoverflow=\dimen314
+\mult@rightbox=\box82
+\mult@grightbox=\box83
+\mult@firstbox=\box84
+\mult@gfirstbox=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\c@minrows=\count355
+\c@columnbadness=\count356
+\c@finalcolumnbadness=\count357
+\last@try=\dimen315
+\multicolovershoot=\dimen316
+\multicolundershoot=\dimen317
+\mult@nat@firstbox=\box122
+\colbreak@box=\box123
+\mc@col@check@num=\count358
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen318
+\captionmargin=\dimen319
+\caption@leftmargin=\dimen320
+\caption@rightmargin=\dimen321
+\caption@width=\dimen322
+\caption@indent=\dimen323
+\caption@parindent=\dimen324
+\caption@hangindent=\dimen325
+Package caption Info: beamer document class detected.
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-beamer.
+sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
+e beamer document classes (AR)
+))
+\c@caption@flags=\count359
+\c@continuedfloat=\count360
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box124
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen326
+\pgf@nodesepend=\dimen327
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen328
+\pgffor@skip=\dimen329
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
+))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count361
+\pgfplotmarksize=\dimen330
+)
+\tikz@lastx=\dimen331
+\tikz@lasty=\dimen332
+\tikz@lastxsaved=\dimen333
+\tikz@lastysaved=\dimen334
+\tikz@lastmovetox=\dimen335
+\tikz@lastmovetoy=\dimen336
+\tikzleveldistance=\dimen337
+\tikzsiblingdistance=\dimen338
+\tikz@figbox=\box125
+\tikz@figbox@bg=\box126
+\tikz@tempbox=\box127
+\tikz@tempbox@bg=\box128
+\tikztreelevel=\count362
+\tikznumberofchildren=\count363
+\tikznumberofcurrentchild=\count364
+\tikz@fig@count=\count365
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count366
+\pgfmatrixcurrentcolumn=\count367
+\pgf@matrix@numberofcolumns=\count368
+)
+\tikz@expandcount=\count369
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeMadri
+d.sty
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+whale.sty)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
+orchid.sty)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
+rounded.sty)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
+infolines.sty))
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 18.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 18.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 18.
+
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count370
+\l__pdf_internal_box=\box129
+\g__pdf_backend_annotation_int=\count371
+\g__pdf_backend_link_int=\count372
+)
+No file presentacion.aux.
+\openout1 = `presentacion.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+1.
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(12.0pt, 340.19536pt, 12.0pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=340.19536pt
+* \textheight=244.6939pt
+* \oddsidemargin=-60.26999pt
+* \evensidemargin=-60.26999pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=12.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 21.
+\@outlinefile=\write5
+\openout5 = `presentacion.out'.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 21.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 21.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 21.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 21.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 21.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 21.
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+asic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
+ibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-e
+nvironment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-m
+onths-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-n
+umbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
+heorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (presentacion.nav)
+
+[1
+
+]
+
+[2
+
+]
+
+[3
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+
+ (C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+
+
+(C:\Users\matia\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 55.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 55.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 55.
+File: Imagenes/brazo_robotico.png Graphic file (type bmp)
+<Imagenes/brazo_robotico.png>
+
+
+[4
+
+]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 99.
+
+
+LaTeX Warning: Reference `eq:carga_mecanica' on page 5 undefined on input line 
+99.
+
+
+
+[5
+
+]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 122.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 122.
+
+
+[6
+
+]
+
+[7
+
+]
+File: Imagenes/tren_transmision.png Graphic file (type bmp)
+<Imagenes/tren_transmision.png>
+
+
+[8
+
+]
+
+[9
+
+]
+
+LaTeX Warning: Reference `eq:transmision_velocidades' on page 10 undefined on i
+nput line 211.
+
+
+LaTeX Warning: Reference `eq:transmision_torques' on page 10 undefined on input
+ line 211.
+
+
+LaTeX Warning: Reference `eq:carga_mecanica' on page 10 undefined on input line
+ 211.
+
+
+LaTeX Warning: Reference `eq:expresion_Td_despejado' on page 10 undefined on in
+put line 211.
+
+
+LaTeX Warning: Reference `eq:subsistema_mecanico_maquina_pmsm' on page 10 undef
+ined on input line 211.
+
+
+
+[10
+
+]
+
+[11
+
+]
+File: Imagenes/bloque_subsistema_mecanico.png Graphic file (type bmp)
+<Imagenes/bloque_subsistema_mecanico.png>
+
+Overfull \vbox (9.21272pt too high) detected at line 283
+ []
+
+
+
+[12
+
+]
+File: Imagenes/Diagrama_Global_NoLineal.png Graphic file (type bmp)
+<Imagenes/Diagrama_Global_NoLineal.png>
+
+Overfull \vbox (10.50401pt too high) detected at line 293
+ []
+
+
+
+[13
+
+]
+File: Imagenes/CoordVirtuales.jpg Graphic file (type bmp)
+<Imagenes/CoordVirtuales.jpg>
+
+Overfull \vbox (9.8975pt too high) detected at line 332
+ []
+
+
+
+[14
+
+]
+File: Imagenes/SistTrifasico(marcoABC).png Graphic file (type bmp)
+<Imagenes/SistTrifasico(marcoABC).png>
+File: Imagenes/TransformadaClark.png Graphic file (type bmp)
+<Imagenes/TransformadaClark.png>
+File: Imagenes/TransformadaPark.png Graphic file (type bmp)
+<Imagenes/TransformadaPark.png>
+
+Overfull \vbox (15.21838pt too high) detected at line 357
+ []
+
+
+
+[15
+
+]
+File: Imagenes/ParkDirecta.png Graphic file (type bmp)
+<Imagenes/ParkDirecta.png>
+
+Overfull \vbox (5.02287pt too high) detected at line 366
+ []
+
+
+
+[16
+
+]
+File: Imagenes/ParkInversa.png Graphic file (type bmp)
+<Imagenes/ParkInversa.png>
+
+Overfull \vbox (13.0172pt too high) detected at line 375
+ []
+
+
+
+[17
+
+]
+
+[18
+
+]
+
+[19
+
+]
+
+[20
+
+]
+File: Imagenes/BloquesSistElectromagnetico.png Graphic file (type bmp)
+<Imagenes/BloquesSistElectromagnetico.png>
+
+
+[21
+
+]
+File: Imagenes/Variacion_resistencia_temperatura.png Graphic file (type bmp)
+<Imagenes/Variacion_resistencia_temperatura.png>
+
+Overfull \vbox (6.32925pt too high) detected at line 486
+ []
+
+
+
+[22
+
+]
+
+[23
+
+]
+File: Imagenes/BloquesSistTermico.png Graphic file (type bmp)
+<Imagenes/BloquesSistTermico.png>
+
+Overfull \vbox (10.61784pt too high) detected at line 517
+ []
+
+
+
+[24
+
+]
+
+[25
+
+]
+
+[26
+
+]
+File: Imagenes/Diagrama_Global_NoLineal.png Graphic file (type bmp)
+<Imagenes/Diagrama_Global_NoLineal.png>
+
+
+[27
+
+]
+
+[28
+
+]
+
+[29
+
+]
+
+LaTeX Warning: Reference `eq:linealizacion_sistemas' on page 30 undefined on in
+put line 660.
+
+
+
+[30
+
+]
+
+[31
+
+]
+Overfull \vbox (0.9168pt too high) detected at line 709
+ []
+
+
+
+[32
+
+]
+File: Imagenes/MatrizAo.png Graphic file (type bmp)
+<Imagenes/MatrizAo.png>
+
+
+[33
+
+]
+
+[34
+
+]
+Overfull \vbox (2.79247pt too high) detected at line 820
+ []
+
+
+
+[35
+
+]
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 856.
+
+
+
+[36
+
+]
+
+LaTeX Warning: Reference `eq:sistema_LTI_equivalente' on page 37 undefined on i
+nput line 865.
+
+File: Imagenes/SistEqLTI.png Graphic file (type bmp)
+<Imagenes/SistEqLTI.png>
+
+
+[37
+
+]
+d:/OneDrive - Universidad Nacional de Cuyo/8vo semestre/AyME/FINAL/AyME/Conteni
+do/presentacion.tex:881: Undefined control sequence.
+\beamer@doifinframe ... \begin {equation} \cancel 
+                                                  {\frac {d i_{ds}^r(t)}{dt}...
+l.881 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+d:/OneDrive - Universidad Nacional de Cuyo/8vo semestre/AyME/FINAL/AyME/Conteni
+do/presentacion.tex:881: Undefined control sequence.
+\beamer@doifinframe ...ig ( v_{ds}^r(t) - \cancel 
+                                                  {R_s(t) i_{ds}^r(t)} + L_q...
+l.881 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[38
+
+]
+
+LaTeX Warning: Reference `eq:neutro_flotante' on page 39 undefined on input lin
+e 931.
+
+
+
+[39
+
+]
+File: Imagenes/BloquesLinealizacionRealimentacionNoLineal.png Graphic file (typ
+e bmp)
+<Imagenes/BloquesLinealizacionRealimentacionNoLineal.png>
+
+Overfull \vbox (5.64508pt too high) detected at line 940
+ []
+
+
+
+[40
+
+]
+d:/OneDrive - Universidad Nacional de Cuyo/8vo semestre/AyME/FINAL/AyME/Conteni
+do/presentacion.tex:958: Undefined control sequence.
+\beamer@doifinframe ...ac {1}{L_d} \Big ( \cancel 
+                                                  {v_{ds}^r(t)} - R_s(t) i_{...
+l.958 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+d:/OneDrive - Universidad Nacional de Cuyo/8vo semestre/AyME/FINAL/AyME/Conteni
+do/presentacion.tex:958: Undefined control sequence.
+\beamer@doifinframe ...s(t) i_{ds}^r(t) + \cancel 
+                                                  {L_q i_{qs}^r(t) P_p \cdot...
+l.958 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 958.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 958.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 958.
+
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <8> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 958.
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <6> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 958.
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <5> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 958.
+LaTeX Font Info:    Font shape `TU/lmss/b/it' in size <8> not available
+(Font)              Font shape `TU/lmss/bx/it' tried instead on input line 958.
+
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <8> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 958.
+
+LaTeX Font Info:    Font shape `TU/lmss/b/it' in size <6> not available
+(Font)              Font shape `TU/lmss/bx/it' tried instead on input line 958.
+
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <6> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 958.
+
+LaTeX Font Info:    Font shape `TU/lmss/b/it' in size <5> not available
+(Font)              Font shape `TU/lmss/bx/it' tried instead on input line 958.
+
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <5> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 958.
+
+
+
+[41
+
+]
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 975.
+
+
+LaTeX Font Info:    Calculating math sizes for size <> on input line 975.
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <> not available
+(Font)              size <3> substituted on input line 975.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <0.7> not available
+(Font)              size <3> substituted on input line 975.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <0.5> not available
+(Font)              size <3> substituted on input line 975.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
+(Font)              size <5> substituted on input line 975.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 975.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 975.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 975.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 975.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 975.
+
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 975.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <0.7> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 975.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <0.5> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 975.
+
+
+[42
+
+]
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 992.
+
+d:/OneDrive - Universidad Nacional de Cuyo/8vo semestre/AyME/FINAL/AyME/Conteni
+do/presentacion.tex:992: Undefined control sequence.
+\beamer@doifinframe ...tiny v^r_{qs}(t) + \cancel 
+                                                  {\boldsymbol {L_d\cdot P_p...
+l.992 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+d:/OneDrive - Universidad Nacional de Cuyo/8vo semestre/AyME/FINAL/AyME/Conteni
+do/presentacion.tex:992: Undefined control sequence.
+\beamer@doifinframe ...dot \omega _m(t) + \cancel 
+                                                  {\boldsymbol {L_d\cdot P_p...
+l.992 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: Imagenes/BloquesLinealizacionRealimentacionNoLinealDesacoplo.png Graphic 
+file (type bmp)
+<Imagenes/BloquesLinealizacionRealimentacionNoLinealDesacoplo.png>
+
+Overfull \vbox (47.73653pt too high) detected at line 992
+ []
+
+
+
+[43
+
+]
+File: Imagenes/SistEqLTI_aumentado.png Graphic file (type bmp)
+<Imagenes/SistEqLTI_aumentado.png>
+
+
+[44
+
+]
+
+LaTeX Warning: Reference `eq:SistemaGlobalLPV' on page 45 undefined on input li
+ne 1014.
+
+
+LaTeX Warning: Reference `eq:sistema_LTI_aumentado' on page 45 undefined on inp
+ut line 1014.
+
+
+
+[45
+
+]
+
+LaTeX Warning: Reference `eq:SubsistemaElectromagnetico' on page 46 undefined o
+n input line 1034.
+
+
+LaTeX Warning: Reference `eq:SubsistemaElectromagnetico' on page 46 undefined o
+n input line 1034.
+
+
+
+[46
+
+]
+
+LaTeX Warning: Reference `eq:ExpresionIds' on page 47 undefined on input line 1
+049.
+
+
+
+[47
+
+]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 1078.
+
+
+
+[48
+
+]
+File: Imagenes/MigracionLPV_1.png Graphic file (type bmp)
+<Imagenes/MigracionLPV_1.png>
+
+
+[49
+
+]
+File: Imagenes/MigracionLPV_2.png Graphic file (type bmp)
+<Imagenes/MigracionLPV_2.png>
+
+
+[50
+
+]
+
+[51
+
+]
+Overfull \vbox (2.82553pt too high) detected at line 1141
+ []
+
+
+
+[52
+
+]
+
+[53
+
+]
+
+[54
+
+]
+
+[55
+
+]
+File: Imagenes/mapa_polos_ceros.png Graphic file (type bmp)
+<Imagenes/mapa_polos_ceros.png>
+
+Overfull \vbox (39.55193pt too high) detected at line 1248
+ []
+
+
+
+[56
+
+]
+
+[57
+
+]
+File: Imagenes/migracion_polos_ceros.png Graphic file (type bmp)
+<Imagenes/migracion_polos_ceros.png>
+
+Overfull \vbox (13.03896pt too high) detected at line 1302
+ []
+
+
+
+[58
+
+]
+
+[59
+
+]
+
+[60
+
+]
+
+[61
+
+]
+d:/OneDrive - Universidad Nacional de Cuyo/8vo semestre/AyME/FINAL/AyME/Conteni
+do/presentacion.tex:1424: Double subscript.
+\beamer@doifinframe ...t) = 0 \Rightarrow (T_{ld}_
+                                                  \text {max} = +6.28\,\text...
+l.1424 \end{frame}
+                  
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+d:/OneDrive - Universidad Nacional de Cuyo/8vo semestre/AyME/FINAL/AyME/Conteni
+do/presentacion.tex:1424: Double subscript.
+\beamer@doifinframe ... {s}) \Rightarrow (-T_{ld}_
+                                                  \text {max} = -6.28\,\text...
+l.1424 \end{frame}
+                  
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+File: Imagenes/EntradasTdVq.png Graphic file (type bmp)
+<Imagenes/EntradasTdVq.png>
+
+Overfull \vbox (3.66634pt too high) detected at line 1424
+ []
+
+
+
+[62
+
+]
+File: Imagenes/VelPosTorqueAlineados.png Graphic file (type bmp)
+<Imagenes/VelPosTorqueAlineados.png>
+
+
+[63
+
+]
+File: Imagenes/TemperaturaEstatorDT.png Graphic file (type bmp)
+<Imagenes/TemperaturaEstatorDT.png>
+
+
+[64
+
+]
+File: Imagenes/ComparacionTensionesCorrientesVirtuales.png Graphic file (type b
+mp)
+<Imagenes/ComparacionTensionesCorrientesVirtuales.png>
+
+Overfull \vbox (16.16994pt too high) detected at line 1459
+ []
+
+
+
+[65
+
+]
+File: Imagenes/ConsignasTensionABC.png Graphic file (type bmp)
+<Imagenes/ConsignasTensionABC.png>
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <10.95> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 1479.
+
+File: Imagenes/ConsignasTensionABCacercamiento.png Graphic file (type bmp)
+<Imagenes/ConsignasTensionABCacercamiento.png>
+
+Overfull \vbox (14.72128pt too high) detected at line 1479
+ []
+
+
+
+[66
+
+]
+File: Imagenes/CorrientesABCSimulacion.png Graphic file (type bmp)
+<Imagenes/CorrientesABCSimulacion.png>
+File: Imagenes/CorrientesABCacercamientoSimulacion.png Graphic file (type bmp)
+<Imagenes/CorrientesABCacercamientoSimulacion.png>
+
+Overfull \vbox (5.91438pt too high) detected at line 1499
+ []
+
+
+
+[67
+
+]
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <10> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 1515.
+
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <7> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 1515.
+
+File: Imagenes/ComparativaVelocidadAngular.png Graphic file (type bmp)
+<Imagenes/ComparativaVelocidadAngular.png>
+
+
+[68
+
+]
+File: Imagenes/ComparativaCorrientesVirtuales.png Graphic file (type bmp)
+<Imagenes/ComparativaCorrientesVirtuales.png>
+
+
+[69
+
+]
+
+[70
+
+]
+File: Imagenes/CurvaParametricaWm-Tm.png Graphic file (type bmp)
+<Imagenes/CurvaParametricaWm-Tm.png>
+
+
+[71
+
+]
+
+[72
+
+]
+
+[73
+
+]
+
+[74
+
+]
+
+[75
+
+]
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <12> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 1639.
+
+File: Imagenes/ComparacionModuladorTorqueRs.png Graphic file (type bmp)
+<Imagenes/ComparacionModuladorTorqueRs.png>
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <17.28> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 1639.
+
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <17.28> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 1639.
+
+
+
+[76
+
+]
+File: Imagenes/ComparacionVelocidadModuladorRs.png Graphic file (type bmp)
+<Imagenes/ComparacionVelocidadModuladorRs.png>
+
+Overfull \vbox (76.38794pt too high) detected at line 1660
+ []
+
+
+
+[77
+
+]
+File: Imagenes/modulador_torque_desacople_realimentaciones.png Graphic file (ty
+pe bmp)
+<Imagenes/modulador_torque_desacople_realimentaciones.png>
+
+
+[78
+
+]
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 1687
+.
+LaTeX Font Info:    Font shape `TU/lmss/b/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/bx/it' tried instead on input line 1687
+.
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 1687
+.
+
+
+[79
+
+]
+Overfull \vbox (5.47902pt too high) detected at line 1719
+ []
+
+
+
+[80
+
+]
+Overfull \hbox (8.1936pt too wide) detected at line 1753
+[] \OT1/cmss/m/n/10.95 = [][][][]  =[]\OMS/cmsy/m/n/10.95 )  [][] \OT1/cmss/m/n
+/10.95 = [][][][][][] = [][] 
+\OML/cmm/m/it/10.95 ;
+ []
+
+
+Overfull \hbox (8.1936pt too wide) detected at line 1753
+[] \OT1/cmss/m/n/10.95 = [][][][]  =[]\OMS/cmsy/m/n/10.95 )  [][] \OT1/cmss/m/n
+/10.95 = [][][][][][] = [][] 
+\OML/cmm/m/it/10.95 ;
+ []
+
+
+Overfull \hbox (3.3186pt too wide) detected at line 1753
+[] \OT1/cmss/m/n/10.95 = [][][][]  =[]\OMS/cmsy/m/n/10.95 )  [][] \OT1/cmss/m/n
+/10.95 = [][][][][][] = [] 
+\OML/cmm/m/it/10.95 :
+ []
+
+File: Imagenes/modulador_corriente.png Graphic file (type bmp)
+<Imagenes/modulador_corriente.png>
+
+
+[81
+
+]
+
+[82
+
+]
+
+[83
+
+]
+
+[84
+
+]
+
+[85
+
+]
+
+[86
+
+]
+File: Imagenes/modulador_torque.png Graphic file (type bmp)
+<Imagenes/modulador_torque.png>
+
+
+[87
+
+]
+File: Imagenes/Torques_simulacion_modulador_torque.png Graphic file (type bmp)
+<Imagenes/Torques_simulacion_modulador_torque.png>
+
+Overfull \vbox (8.65338pt too high) detected at line 1843
+ []
+
+
+
+[88
+
+]
+File: Imagenes/Acercamiento_torques_modulador.png Graphic file (type bmp)
+<Imagenes/Acercamiento_torques_modulador.png>
+
+Overfull \vbox (10.13235pt too high) detected at line 1857
+ []
+
+
+
+[89
+
+]
+File: Imagenes/Curvas_posicion_velocidad_modular_torque.png Graphic file (type 
+bmp)
+<Imagenes/Curvas_posicion_velocidad_modular_torque.png>
+
+Overfull \vbox (1.67734pt too high) detected at line 1871
+ []
+
+
+
+[90
+
+]
+File: Imagenes/Curvas_corrientes_modulador_torque.png Graphic file (type bmp)
+<Imagenes/Curvas_corrientes_modulador_torque.png>
+
+
+[91
+
+]
+
+[92
+
+]
+
+[93
+
+]
+File: Imagenes/DiagramaBloquesPIDdesagregado.png Graphic file (type bmp)
+<Imagenes/DiagramaBloquesPIDdesagregado.png>
+
+Overfull \vbox (0.84349pt too high) detected at line 1930
+ []
+
+
+
+[94
+
+]
+
+[95
+
+]
+
+[96
+
+]
+
+[97
+
+]
+
+[98
+
+]
+
+[99
+
+]
+File: Imagenes/MigracionPolosControlador.png Graphic file (type bmp)
+<Imagenes/MigracionPolosControlador.png>
+
+Overfull \vbox (39.6902pt too high) detected at line 2020
+ []
+
+
+
+[100
+
+]
+File: Imagenes/setpoint.png Graphic file (type bmp)
+<Imagenes/setpoint.png>
+
+
+[101
+
+]
+
+[102
+
+]
+
+[103
+
+]
+File: Imagenes/observador.png Graphic file (type bmp)
+<Imagenes/observador.png>
+
+d:/OneDrive - Universidad Nacional de Cuyo/8vo semestre/AyME/FINAL/AyME/Conteni
+do/presentacion.tex:2119: Missing $ inserted.
+<inserted text> 
+                $
+l.2119 \end{frame}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+d:/OneDrive - Universidad Nacional de Cuyo/8vo semestre/AyME/FINAL/AyME/Conteni
+do/presentacion.tex:2119: Missing $ inserted.
+<inserted text> 
+                $
+l.2119 \end{frame}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+
+[104
+
+]
+File: Imagenes/Modelo_Completo_Simulacion.png Graphic file (type bmp)
+<Imagenes/Modelo_Completo_Simulacion.png>
+
+Overfull \vbox (7.853pt too high) detected at line 2133
+ []
+
+
+
+[105
+
+]
+File: Imagenes/PosicionVelocidadSimulacionModeloCompleto.png Graphic file (type
+ bmp)
+<Imagenes/PosicionVelocidadSimulacionModeloCompleto.png>
+
+
+[106
+
+]
+File: Imagenes/PosicionVelocidadSimulacionModeloCompleto.png Graphic file (type
+ bmp)
+<Imagenes/PosicionVelocidadSimulacionModeloCompleto.png>
+
+
+[107
+
+]
+File: Imagenes/AcercamientoRespuestaSimulacionCompleta.png Graphic file (type b
+mp)
+<Imagenes/AcercamientoRespuestaSimulacionCompleta.png>
+
+Overfull \vbox (11.74905pt too high) detected at line 2169
+ []
+
+
+
+[108
+
+]
+File: Imagenes/ErroresObservadorSimulacionCompleta.png Graphic file (type bmp)
+<Imagenes/ErroresObservadorSimulacionCompleta.png>
+
+Overfull \vbox (13.65654pt too high) detected at line 2177
+ []
+
+
+
+[109
+
+]
+File: Imagenes/TensionesSimulacionCompleta.png Graphic file (type bmp)
+<Imagenes/TensionesSimulacionCompleta.png>
+
+Overfull \vbox (8.72623pt too high) detected at line 2191
+ []
+
+
+
+[110
+
+]
+File: Imagenes/AcercamientoTensionesEstacionariasSimulacion.png Graphic file (t
+ype bmp)
+<Imagenes/AcercamientoTensionesEstacionariasSimulacion.png>
+
+Overfull \vbox (11.9651pt too high) detected at line 2204
+ []
+
+
+
+[111
+
+]
+File: Imagenes/AcercamientoTensionesTransitoriosSimulacion.png Graphic file (ty
+pe bmp)
+<Imagenes/AcercamientoTensionesTransitoriosSimulacion.png>
+
+Overfull \vbox (8.78876pt too high) detected at line 2213
+ []
+
+
+
+[112
+
+]
+File: Imagenes/CorrientesSimulacionCompleta.png Graphic file (type bmp)
+<Imagenes/CorrientesSimulacionCompleta.png>
+
+Overfull \vbox (9.98285pt too high) detected at line 2227
+ []
+
+
+
+[113
+
+]
+File: Imagenes/AcercamientoCorrientesEstacionariasSimulacion.png Graphic file (
+type bmp)
+<Imagenes/AcercamientoCorrientesEstacionariasSimulacion.png>
+
+Overfull \vbox (6.6974pt too high) detected at line 2240
+ []
+
+
+
+[114
+
+]
+File: Imagenes/AcercamientoCorrientesTransitoriosSimulacion.png Graphic file (t
+ype bmp)
+<Imagenes/AcercamientoCorrientesTransitoriosSimulacion.png>
+
+Overfull \vbox (1.91568pt too high) detected at line 2248
+ []
+
+
+
+[115
+
+]
+File: Imagenes/RechazoPerturbacionesSimulacionCompleta.png Graphic file (type b
+mp)
+<Imagenes/RechazoPerturbacionesSimulacionCompleta.png>
+
+Overfull \vbox (5.26768pt too high) detected at line 2264
+ []
+
+
+
+[116
+
+]
+File: Imagenes/ErrorPosicionPerturbacion.png Graphic file (type bmp)
+<Imagenes/ErrorPosicionPerturbacion.png>
+File: Imagenes/AcercamientoErrorPosicionPerturbacion.png Graphic file (type bmp
+)
+<Imagenes/AcercamientoErrorPosicionPerturbacion.png>
+
+Overfull \vbox (29.44849pt too high) detected at line 2290
+ []
+
+
+
+[117
+
+]
+File: Imagenes/perfil_trapezoidal_velocidad.png Graphic file (type bmp)
+<Imagenes/perfil_trapezoidal_velocidad.png>
+
+Overfull \vbox (10.4714pt too high) detected at line 2321
+ []
+
+
+
+[118
+
+]
+File: Imagenes/Torque_electromagnetico_velocidad_trapezoidal.png Graphic file (
+type bmp)
+<Imagenes/Torque_electromagnetico_velocidad_trapezoidal.png>
+
+Overfull \vbox (20.02556pt too high) detected at line 2336
+ []
+
+
+
+[119
+
+]
+File: Imagenes/Corrientes_velocidad_trapezoidal.png Graphic file (type bmp)
+<Imagenes/Corrientes_velocidad_trapezoidal.png>
+
+Overfull \vbox (15.28163pt too high) detected at line 2351
+ []
+
+
+
+[120
+
+]
+File: Imagenes/Tensiones_velocidad_trapezoidal.png Graphic file (type bmp)
+<Imagenes/Tensiones_velocidad_trapezoidal.png>
+
+Overfull \vbox (20.318pt too high) detected at line 2366
+ []
+
+
+
+[121
+
+]
+Overfull \vbox (6.68816pt too high) detected at line 2398
+ []
+
+
+
+[122
+
+]
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2428
+.
+
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 2428.
+
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <0.7> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 2428.
+
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <0.5> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 2428.
+
+File: Imagenes/Observador_PID.png Graphic file (type bmp)
+<Imagenes/Observador_PID.png>
+
+Overfull \vbox (14.03831pt too high) detected at line 2428
+ []
+
+
+
+[123
+
+]
+File: Imagenes/ErrorPosicionPerturbacionPID.png Graphic file (type bmp)
+<Imagenes/ErrorPosicionPerturbacionPID.png>
+File: Imagenes/AcercamientoErrorPosicionPerturbacionPID.png Graphic file (type 
+bmp)
+<Imagenes/AcercamientoErrorPosicionPerturbacionPID.png>
+
+Overfull \vbox (12.27193pt too high) detected at line 2455
+ []
+
+
+
+[124
+
+]
+File: Imagenes/verificacion_temperatura.jpeg Graphic file (type bmp)
+<Imagenes/verificacion_temperatura.jpeg>
+
+Overfull \vbox (3.64748pt too high) detected at line 2473
+ []
+
+
+
+[125
+
+]
+File: Imagenes/verificacion_temperatura_carga.jpeg Graphic file (type bmp)
+<Imagenes/verificacion_temperatura_carga.jpeg>
+
+
+[126
+
+]
+
+[127
+
+]
+File: Imagenes/sensores_no_ideales.png Graphic file (type bmp)
+<Imagenes/sensores_no_ideales.png>
+
+Overfull \vbox (166.9pt too high) detected at line 2529
+ []
+
+
+
+[128
+
+]
+File: Imagenes/1_posNI_2000_p.png Graphic file (type bmp)
+<Imagenes/1_posNI_2000_p.png>
+File: Imagenes/2_posNI_2000_w.png Graphic file (type bmp)
+<Imagenes/2_posNI_2000_w.png>
+File: Imagenes/3_posNI_2000_c.png Graphic file (type bmp)
+<Imagenes/3_posNI_2000_c.png>
+
+
+[129
+
+]
+File: Imagenes/5_posNI_25000_pw.png Graphic file (type bmp)
+<Imagenes/5_posNI_25000_pw.png>
+
+
+[130
+
+]
+File: Imagenes/7_corNI_6000_c.png Graphic file (type bmp)
+<Imagenes/7_corNI_6000_c.png>
+File: Imagenes/8_corNI_6000_pw.png Graphic file (type bmp)
+<Imagenes/8_corNI_6000_pw.png>
+
+Overfull \vbox (99.70473pt too high) detected at line 2586
+ []
+
+
+
+[131
+
+]
+File: Imagenes/9_corNI_15000_c.png Graphic file (type bmp)
+<Imagenes/9_corNI_15000_c.png>
+
+
+[132
+
+]
+File: Imagenes/11_temNI_20.png Graphic file (type bmp)
+<Imagenes/11_temNI_20.png>
+
+
+[133
+
+]
+File: Imagenes/13_tempNI_01.png Graphic file (type bmp)
+<Imagenes/13_tempNI_01.png>
+
+
+[134
+
+]
+File: Imagenes/Bloques_Modulador_Tension_No_Ideal.png Graphic file (type bmp)
+<Imagenes/Bloques_Modulador_Tension_No_Ideal.png>
+
+Overfull \vbox (10.9756pt too high) detected at line 2653
+ []
+
+
+
+[135
+
+]
+File: Imagenes/Temperatura_Estator_ModuladorTNImejorado.png Graphic file (type 
+bmp)
+<Imagenes/Temperatura_Estator_ModuladorTNImejorado.png>
+
+Overfull \vbox (15.15836pt too high) detected at line 2670
+ []
+
+
+
+[136
+
+]
+File: Imagenes/Controlador_Final.png Graphic file (type bmp)
+<Imagenes/Controlador_Final.png>
+
+Overfull \vbox (119.60158pt too high) detected at line 2691
+ []
+
+
+
+[137
+
+]
+File: Imagenes/Controlador_PID_discreto.png Graphic file (type bmp)
+<Imagenes/Controlador_PID_discreto.png>
+
+Overfull \vbox (2.93254pt too high) detected at line 2711
+ []
+
+
+
+[138
+
+]
+File: Imagenes/Observador_PID_discreto.png Graphic file (type bmp)
+<Imagenes/Observador_PID_discreto.png>
+
+
+[139
+
+]
+File: Imagenes/Planta_Actuadores_Sensores_Final.png Graphic file (type bmp)
+<Imagenes/Planta_Actuadores_Sensores_Final.png>
+
+
+[140
+
+]
+
+[141
+
+]
+
+[142
+
+]
+\tf@nav=\write6
+\openout6 = `presentacion.nav'.
+
+\tf@toc=\write7
+\openout7 = `presentacion.toc'.
+
+\tf@snm=\write8
+\openout8 = `presentacion.snm'.
+
+ (presentacion.aux
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-07-20>
+ ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 4.5pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `presentacion.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `presentacion.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 28771 strings out of 409029
+ 577794 string characters out of 5756741
+ 1954612 words of memory out of 5000000
+ 50813 multiletter control sequences out of 15000+600000
+ 575052 words of font info for 150 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 128i,27n,123p,1068b,812s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on presentacion.pdf (142 pages).
