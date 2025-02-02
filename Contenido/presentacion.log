@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.18)  2 FEB 2025 11:14
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.18)  2 FEB 2025 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2435,10 +2435,6 @@ File: Imagenes/verificacion_temperatura_carga.jpeg Graphic file (type bmp)
 File: Imagenes/sensores_no_ideales.png Graphic file (type bmp)
 <Imagenes/sensores_no_ideales.png>
 
-Overfull \vbox (166.9pt too high) detected at line 2529
- []
-
-
 
 [128
 
@@ -2449,6 +2445,10 @@ File: Imagenes/2_posNI_2000_w.png Graphic file (type bmp)
 <Imagenes/2_posNI_2000_w.png>
 File: Imagenes/3_posNI_2000_c.png Graphic file (type bmp)
 <Imagenes/3_posNI_2000_c.png>
+
+Overfull \vbox (8.94037pt too high) detected at line 2550
+ []
+
 
 
 [129
@@ -2466,7 +2466,7 @@ File: Imagenes/7_corNI_6000_c.png Graphic file (type bmp)
 File: Imagenes/8_corNI_6000_pw.png Graphic file (type bmp)
 <Imagenes/8_corNI_6000_pw.png>
 
-Overfull \vbox (99.70473pt too high) detected at line 2586
+Overfull \vbox (0.76956pt too high) detected at line 2584
  []
 
 
@@ -2476,90 +2476,34 @@ Overfull \vbox (99.70473pt too high) detected at line 2586
 ]
 File: Imagenes/9_corNI_15000_c.png Graphic file (type bmp)
 <Imagenes/9_corNI_15000_c.png>
+File: Imagenes/11_temNI_20.png Graphic file (type bmp)
+<Imagenes/11_temNI_20.png>
+
+Overfull \vbox (14.40565pt too high) detected at line 2611
+ []
+
 
 
 [132
 
 ]
-File: Imagenes/11_temNI_20.png Graphic file (type bmp)
-<Imagenes/11_temNI_20.png>
+File: Imagenes/14_tmpNI_01_acercamiento.png Graphic file (type bmp)
+<Imagenes/14_tmpNI_01_acercamiento.png>
+
+Overfull \vbox (13.17314pt too high) detected at line 2626
+ []
+
 
 
 [133
 
 ]
-File: Imagenes/13_tempNI_01.png Graphic file (type bmp)
-<Imagenes/13_tempNI_01.png>
-
 
 [134
 
 ]
-File: Imagenes/Bloques_Modulador_Tension_No_Ideal.png Graphic file (type bmp)
-<Imagenes/Bloques_Modulador_Tension_No_Ideal.png>
-
-Overfull \vbox (10.9756pt too high) detected at line 2653
- []
-
-
 
 [135
-
-]
-File: Imagenes/Temperatura_Estator_ModuladorTNImejorado.png Graphic file (type 
-bmp)
-<Imagenes/Temperatura_Estator_ModuladorTNImejorado.png>
-
-Overfull \vbox (15.15836pt too high) detected at line 2670
- []
-
-
-
-[136
-
-]
-File: Imagenes/Controlador_Final.png Graphic file (type bmp)
-<Imagenes/Controlador_Final.png>
-
-Overfull \vbox (119.60158pt too high) detected at line 2691
- []
-
-
-
-[137
-
-]
-File: Imagenes/Controlador_PID_discreto.png Graphic file (type bmp)
-<Imagenes/Controlador_PID_discreto.png>
-
-Overfull \vbox (2.93254pt too high) detected at line 2711
- []
-
-
-
-[138
-
-]
-File: Imagenes/Observador_PID_discreto.png Graphic file (type bmp)
-<Imagenes/Observador_PID_discreto.png>
-
-
-[139
-
-]
-File: Imagenes/Planta_Actuadores_Sensores_Final.png Graphic file (type bmp)
-<Imagenes/Planta_Actuadores_Sensores_Final.png>
-
-
-[140
-
-]
-
-[141
-
-]
-
-[142
 
 ]
 \tf@nav=\write6
@@ -2600,12 +2544,12 @@ Package rerunfilecheck Info: Checksums for `presentacion.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28771 strings out of 409029
- 577794 string characters out of 5756741
+ 28699 strings out of 409029
+ 575187 string characters out of 5756741
  1954612 words of memory out of 5000000
- 50813 multiletter control sequences out of 15000+600000
+ 50747 multiletter control sequences out of 15000+600000
  575052 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,27n,123p,1068b,812s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on presentacion.pdf (142 pages).
+Output written on presentacion.pdf (135 pages).

@@ -2499,8 +2499,8 @@ Sometemos nuevamente el sistema a la misma perturbación de torque de carga $T_{
         \item Sensor de temperatura: filtro pasa-bajos de 1\textsuperscript{o} orden, \(\tau = 20 \text{s}\).
     \end{itemize}
 
-    \textbf{Modelo en espacio de estados para sensores de corriente y posición:}
-    Desarrollando, reemplazando y comparando con la función de transferencia, llegamos a:
+    \textbf{Modelo en espacio de estados para sensores de corriente y posición:}\
+    Desarrollando y comparando con la función de transferencia, llegamos a:
     \[
         A = \begin{bmatrix} 0 & -1 \\ \omega_n^2 & -2 \omega_n \xi \end{bmatrix}, \quad 
         B = \begin{bmatrix} 1 \\ 0 \end{bmatrix}, \quad 
@@ -2512,24 +2512,23 @@ Sometemos nuevamente el sistema a la misma perturbación de torque de carga $T_{
 \begin{frame}{Modelado y Simulación de Sensores No Ideales}
     \begin{columns}
         \column{0.5\textwidth}
-        \textbf{Diagrama de bloques del modelo Simulink}
         \begin{figure}
             \centering
-            \includegraphics[width=0.8\textwidth]{Imagenes/sensores_no_ideales.png}
-            \caption{Sensores no ideales en Simulink.}
+            \includegraphics[width=0.5\textwidth]{Imagenes/sensores_no_ideales.png}
         \end{figure}
 
         \column{0.5\textwidth}
+        Se fue haciendo una implementación progresiva de los sensores no ideales.
         \textbf{Impacto del sensor de posición no ideal:}
         \begin{itemize}
-            \item Con \(\omega_n = 2000 \text{ rad/s}\), la simulación se vuelve inestable.
+            \item Con \(\omega_n = 2000 \text{ rad/s}\), la simulación se vuelve inestable hasta su detención.
             \item Divergencias en la posición observada y en las corrientes.
         \end{itemize}
     \end{columns}
 \end{frame}
 
 % Slide 3: Resultados del Sensor de Posición No Ideal
-\begin{frame}{Resultados del Sensor de Posición No Ideal}
+\begin{frame}{1°: Resultados del Sensor de Posición No Ideal}
     \begin{figure}
         \centering
         \begin{minipage}{0.48\textwidth}
@@ -2545,23 +2544,24 @@ Sometemos nuevamente el sistema a la misma perturbación de torque de carga $T_{
 
     \begin{figure}
         \centering
-        \includegraphics[width=0.5\textwidth]{Imagenes/3_posNI_2000_c.png}
+        \includegraphics[width=0.6\textwidth]{Imagenes/3_posNI_2000_c.png}
         \caption{Corrientes con sensor de posición no ideal (\(\omega_n = 2000 \text{ rad/s}\)).}
     \end{figure}
 \end{frame}
 
 % Slide 4: Ajuste del Sensor de Posición a \(\omega_n = 25000 \text{ rad/s}\)
-\begin{frame}{Ajuste del Sensor de Posición}
+\begin{frame}{1°: Ajuste del Sensor de Posición}
+Luego de iterar y analizar:
     \textbf{Con \(\omega_n = 25000 \text{ rad/s}\), se logra estabilidad en la simulación.}
     \begin{figure}
         \centering
-        \includegraphics[width=0.7\textwidth]{Imagenes/5_posNI_25000_pw.png}
+        \includegraphics[width=1\textwidth]{Imagenes/5_posNI_25000_pw.png}
         \caption{Posición y velocidad con \(\omega_n = 25000 \text{ rad/s}\).}
     \end{figure}
 \end{frame}
 
 % Slide 5: Sensores de Corriente No Ideales
-\begin{frame}{Sensores de Corriente No Ideales}
+\begin{frame}{2°: Sensores de Corriente No Ideales}
     \begin{columns}
         \column{0.5\textwidth}
         \textbf{Impacto de \(\omega_n = 6000 \text{ rad/s}\):}
@@ -2574,29 +2574,25 @@ Sometemos nuevamente el sistema a la misma perturbación de torque de carga $T_{
         \begin{figure}
             \centering
             \includegraphics[width=0.9\textwidth]{Imagenes/7_corNI_6000_c.png}
-            \caption{Corrientes con sensores de corriente no ideales.}
         \end{figure}
     \end{columns}
 
     \begin{figure}
         \centering
-        \includegraphics[width=0.6\textwidth]{Imagenes/8_corNI_6000_pw.png}
-        \caption{Posición y velocidad con sensores de corriente no ideales.}
+        \includegraphics[width=0.5\textwidth]{Imagenes/8_corNI_6000_pw.png}
     \end{figure}
 \end{frame}
 
 % Slide 6: Ajuste de Sensores de Corriente
-\begin{frame}{Ajuste de Sensores de Corriente}
+\begin{frame}{2°: Ajuste de Sens. de Corriente, 3°: Sen. Temp NI}
+Tras iterar y analizar: 
     \textbf{Con \(\omega_n = 15000 \text{ rad/s}\), se logran respuestas satisfactorias.}
     \begin{figure}
         \centering
         \includegraphics[width=0.7\textwidth]{Imagenes/9_corNI_15000_c.png}
-        \caption{Corrientes con sensores de corriente no ideales (\(\omega_n = 15000 \text{ rad/s}\)).}
+        \caption{Corrientes con sensores de corriente no ideales.}
     \end{figure}
-\end{frame}
 
-% Slide 7: Sensores de Temperatura No Ideales
-\begin{frame}{Sensores de Temperatura No Ideales}
     \begin{columns}
         \column{0.5\textwidth}
         \textbf{Impacto de \(\tau = 20 \text{ s}\):}
@@ -2608,142 +2604,27 @@ Sometemos nuevamente el sistema a la misma perturbación de torque de carga $T_{
         \column{0.5\textwidth}
         \begin{figure}
             \centering
-            \includegraphics[width=0.9\textwidth]{Imagenes/11_temNI_20.png}
-            \caption{Gráfica de temperatura con \(\tau = 20 \text{ s}\).}
+            \includegraphics[width=1\textwidth]{Imagenes/11_temNI_20.png}
+            \caption{Gráfica de temperatura.}
         \end{figure}
     \end{columns}
 \end{frame}
 
 % Slide 8: Ajuste de Sensor de Temperatura
 \begin{frame}{Ajuste de Sensor de Temperatura}
-    \begin{columns}
-        \column{0.5\textwidth}
         \textbf{Mejora al reducir \(\tau\):}
         \begin{itemize}
             \item Con \(\tau = 1 \text{ s}\), la respuesta es más rápida pero aún insuficiente.
             \item Con \(\tau = 0.01 \text{ s}\), se obtiene una representación precisa.
         \end{itemize}
 
-        \column{0.5\textwidth}
         \begin{figure}
             \centering
-            \includegraphics[width=0.9\textwidth]{Imagenes/13_tempNI_01.png}
-            \caption{Respuesta térmica con \(\tau = 0.01 \text{ s}\).}
+            \includegraphics[width=1\textwidth]{Imagenes/14_tmpNI_01_acercamiento.png}
+            \caption{Acercamiento: Respuesta térmica con \(\tau = 0.01 \text{ s}\).}
         \end{figure}
-    \end{columns}
 \end{frame}
 
-
-
-% Slide: Modulador Trifásico de Tensión No Ideal
-\begin{frame}{Modulador Trifásico de Tensión No Ideal}
-\textbf{Características:}
-\begin{itemize}
-    \item Saturación de tensión: \( \lvert v(t) \rvert \leq \sqrt{2} \cdot \frac{V_{sl,\text{max}}}{\sqrt{3}} \).
-    \item Ancho de banda: \( \omega_n = 6000 \, \text{rad/s}, \xi = 1 \).
-\end{itemize}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.6\textwidth]{Imagenes/Bloques_Modulador_Tension_No_Ideal.png}
-    \caption{Diagrama del modulador de tensión no ideal.}
-\end{figure}
-
-\textbf{Resultados:} Alto ruido y picos de corriente, comprometiendo la estabilidad.
-\end{frame}
-
-% Slide: Mejora en el Modulador
-\begin{frame}{Mejora en el Modulador de Tensión}
-\textbf{Parámetros Ajustados:}
-\begin{itemize}
-    \item Sensores de corriente: \( \omega_n = 25000 \, \text{rad/s} \).
-    \item Modulador: \( \omega_n = 30000 \, \text{rad/s} \).
-\end{itemize}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.6\textwidth]{Imagenes/Temperatura_Estator_ModuladorTNImejorado.png}
-    \caption{Mejora en temperatura con modulador ajustado.}
-\end{figure}
-
-\textbf{Conclusión:} Mejores resultados, aunque con limitaciones en altas velocidades.
-\end{frame}
-
-
-% Slide: Controlador Completo
-\begin{frame}{Versión Final del Controlador Completo}
-\textbf{Componentes Principales:}
-\begin{itemize}
-    \item Modelo no lineal del sistema físico.
-    \item Transformaciones de Park (directa e inversa).
-    \item Modulador de torque con desacoplamiento de realimentaciones físicas.
-    \item Controlador PID.
-    \item Observador de estado con acción integral.
-    \item Sensores y modulador de tensión no ideales.
-\end{itemize}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.7\textwidth]{Imagenes/Controlador_Final.png}
-    \caption{Diagrama de bloques del controlador completo.}
-    \label{fig:Controlador_Final}
-\end{figure}
-\end{frame}
-
-% Slide: Controlador PID Discretizado
-\begin{frame}{Discretización del Controlador Completo}
-\textbf{Método:} Tustin (Trapecios) con período de muestreo \( T_s \).
-\[
-f_s = \frac{1}{T_s} \geq 10 \cdot BW_\text{cont}, \quad T_s \approx 1.25 \cdot 10^{-4} \, \text{s}.
-\]
-
-\textbf{Ecuación:}
-\[
-H(z) = \frac{T_s}{2} \cdot \frac{1+z^{-1}}{1-z^{-1}}
-\]
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.75\textwidth]{Imagenes/Controlador_PID_discreto.png}
-    \caption{Controlador PID discreto.}
-    \label{fig:Controlador_PID_discreto}
-\end{figure}
-\end{frame}
-
-% Slide: Observador de Estado Discretizado
-\begin{frame}{Observador de Estado Reducido Discretizado}
-\textbf{Método:} Tustin aplicado al observador integral.
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\textwidth]{Imagenes/Observador_PID_discreto.png}
-    \caption{Observador de estado reducido discretizado.}
-    \label{fig:observador_estado_discreto}
-\end{figure}
-
-\textbf{Resultados:}
-\begin{itemize}
-    \item \( T_s = 1.25 \cdot 10^{-4} \, \text{s} \): degradación en seguimiento.
-    \item \( T_s = 3.14 \cdot 10^{-5} \, \text{s} \): desempeño óptimo.
-\end{itemize}
-\end{frame}
-
-% Slide: Resultados Finales
-\begin{frame}{Resultados del Controlador Completo}
-\textbf{Evaluación del Desempeño:}
-\begin{itemize}
-    \item Seguimiento de consignas: respuesta estable y precisa.
-    \item Rechazo de perturbaciones: error estacionario reducido.
-    \item Reducción de picos de torque, corriente y tensiones.
-\end{itemize}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.7\textwidth]{Imagenes/Planta_Actuadores_Sensores_Final.png}
-    \caption{Planta no lineal con actuadores y sensores integrados.}
-    \label{fig:Planta_Actuadores_Sensores_Final}
-\end{figure}
-\end{frame}
 
 % Slide: Conclusión
 \begin{frame}{Conclusión}
