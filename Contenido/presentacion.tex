@@ -2626,6 +2626,335 @@ Tras iterar y analizar:
 \end{frame}
 
 
+
+% Slide 1: Modulador Trifásico de Tensión No Ideal
+\begin{frame}{Modulador Trifásico de Tensión No Ideal}\small
+    \textbf{Evaluación de la degradación en el desempeño al considerar la respuesta no ideal del modulador trifásico.}
+    \begin{itemize}
+        \item Saturación de tensión: 
+        \[
+        |v(t)| \leq \sqrt{2} \cdot \frac{V_{sl, \text{max}}}{\sqrt{3}}, \quad V_{sl, \text{max}} = 48 \cdot V_{ca, \text{rms}}
+        \]
+        \item Ancho de banda de tensión: Modelo LP en espacio de estados de 2° orden, \(\omega_n = 6000 \text{ rad/s}\), \(\xi = 1\).
+    \end{itemize}
+
+        \textbf{Matrices del modelo en espacio de estados:}
+        \[
+        A_v = \begin{bmatrix} 0 & -1 \\ 6000^2 & -12000 \end{bmatrix}, \quad 
+        B_v = \begin{bmatrix} 0 \\ 1 \end{bmatrix}, \quad
+        C_v = \begin{bmatrix} 0 & 1 \end{bmatrix}, \quad 
+        D_v = \begin{bmatrix} 0 \end{bmatrix}
+        \]
+
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.3\textwidth]{Imagenes/Bloques_Modulador_Tension_No_Ideal.png}
+        \end{figure}
+\end{frame}
+
+% Slide 3: Impacto en el Seguimiento de Consignas
+\begin{frame}{Impacto en el Seguimiento de Consignas}
+    \textbf{Resultados de simulación:}
+    \begin{itemize}
+        \item Ruido en la velocidad → grandes aceleraciones → torques elevados.
+    \end{itemize}
+    
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\textwidth]{Imagenes/Posicion_Velocidad_ModuladorTNL.png}
+        \caption{Perfiles de posición y velocidad angular con \(\omega_n = 6000\) rad/s.}
+    \end{figure}
+\end{frame}
+
+% Slide 4: Tensiones y Corrientes con Modulador No Ideal
+\begin{frame}{Tensiones y Corrientes con Modulador No Ideal}
+    \begin{itemize}
+        \item Tensiones de fase superan la saturación.
+        \item Corrientes sobrepasan los valores admisibles del estator.
+    \end{itemize}
+    \begin{figure}
+        \centering
+        \begin{minipage}{0.48\textwidth}
+            \includegraphics[width=\textwidth]{Imagenes/Consignas_Tensiones_ModuladorTNL.png}
+            \caption{Consignas de tensión en coordenadas absolutas y virtuales.}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.48\textwidth}
+            \includegraphics[width=\textwidth]{Imagenes/Corrientes_ModuladorTNL.png}
+            \caption{Perfiles de corriente en el estator.}
+        \end{minipage}
+    \end{figure}
+\end{frame}
+
+% Slide 5: Saturación del Modulador de Tensión
+\begin{frame}{Saturación del Modulador de Tensión}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \textbf{Tensiones de salida del modulador}
+        \begin{itemize}
+            \item La tensión real alcanza el valor máximo de saturación.
+            \item Se observan ondas cuadradas en la salida del modulador.
+        \end{itemize}
+        \column{0.5\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.9\textwidth]{Imagenes/Tensiones_Aplicadas_ModuladorTNL.png}
+            \caption{Tensiones de fase}
+        \end{figure}
+    \end{columns}
+    \begin{figure}
+            \centering
+            \includegraphics[width=0.53\textwidth]{Imagenes/Acercamiento_Tensiones_Aplicadas_ModuladorTNL.png}
+            \caption{Acercamiento: ondas cuadradas de tensiones de fase aplicadas por el modulador de tensión trifásico producto de la saturación del mismo.}
+        \end{figure}
+\end{frame}
+
+% Slide 6: Impacto en la Temperatura del Estator
+\begin{frame}{Impacto en la Temperatura del Estator}
+    \textbf{Elevadas corrientes generan un incremento de temperatura en el estator.}
+    \begin{figure}
+        \centering
+        \includegraphics[width=1\textwidth]{Imagenes/Temperatura_Estator_ModuladorTNI.png}
+        \caption{Evolución de la temperatura del estator con \(\omega_n = 6000\) rad/s.}
+    \end{figure}
+\end{frame}
+
+% Slide 7: Mejora con Frecuencias de Corte Ajustadas
+\begin{frame}{Mejora con Frecuencias de Corte Ajustadas}
+    \textbf{Propuesta de mejora:}
+    \begin{itemize}
+        \item Aumento de la frecuencia de corte del modulador de tensión a \(\omega_n = 30000\) rad/s.
+        \item Ajuste de sensores de corriente a \(\omega_n = 25000\) rad/s.
+    \end{itemize}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{Imagenes/Posicion_Velocidad_ModuladorTNI.png}
+        \caption{Perfiles de posición y velocidad angular tras la mejora.}
+    \end{figure}
+\end{frame}
+
+% Slide 8: Comparación de Tensiones y Corrientes Mejoradas
+\begin{frame}{Comparación de Tensiones y Corrientes Mejoradas}
+    \begin{figure}
+        \centering
+        \begin{minipage}{0.48\textwidth}
+            \includegraphics[width=\textwidth]{Imagenes/Consignas_Tensiones_ModuladorTNImejorado.png}
+            \caption{Tensiones en coordenadas absolutas y virtuales.}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.48\textwidth}
+            \includegraphics[width=\textwidth]{Imagenes/Corrientes_ModuladorTNImejorado.png}
+            \caption{Corrientes en coordenadas absolutas y virtuales.}
+        \end{minipage}
+    \end{figure}
+\end{frame}
+
+% Slide 9: Conclusiones y Recomendaciones
+\begin{frame}{Conclusiones y Recomendaciones}
+    \textbf{Conclusiones:}
+    \begin{itemize}
+        \item La degradación del sistema se debe a la saturación del modulador de tensión.
+        \item Las consignas de tensión crecen exponencialmente sin que las tensiones reales puedan seguirlas.
+        \item Elevadas corrientes ponen en riesgo la integridad de la máquina eléctrica.
+    \end{itemize}
+    
+    \textbf{Recomendaciones:}
+    \begin{itemize}
+        \item Establecer perfiles de velocidad más lentos para reducir las tensiones requeridas.
+        \item Ajustar el diseño del modulador de tensión para mejorar su respuesta.
+    \end{itemize}
+\end{frame}
+
+
+% Slide 1: Versión Final del Controlador Completo
+\begin{frame}{Versión Final del Controlador Completo}
+    \textbf{El controlador integra todas las etapas necesarias:}
+    \begin{itemize}
+        \item Modelo no lineal del sistema físico.
+        \item Transformaciones de Park (directa e inversa).
+        \item Modulador de torque con desacoplamiento de realimentaciones.
+        \item Controlador PID con resistencia del estator dependiente de la temperatura.
+        \item Observador de estado reducido con acción integral.
+        \item Sensores y modulador de tensión con ancho de banda finito y saturación.
+    \end{itemize}
+\end{frame}
+
+% Slide 2: Diagrama de Bloques del Controlador Completo
+\begin{frame}{Diagrama de Bloques del Controlador Completo}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Imagenes/Controlador_Final.png}
+            \caption{Diagrama de bloques del controlador.}
+            \label{fig:Controlador_Final}
+        \end{figure}
+
+        \column{0.5\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Imagenes/Planta_Actuadores_Sensores_Final.png}
+            \caption{Planta y actuadores con sensores.}
+            \label{fig:Planta_Actuadores_Sensores_Final}
+        \end{figure}
+    \end{columns}
+\end{frame}
+
+% Slide 3: Discretización del Controlador
+\begin{frame}{Discretización del Controlador}
+La discretización del completo se realizó utilizando:
+    \textbf{Método de Tustin (Trapecios):}
+    \[
+    H(z) = \frac{T_s}{2} \cdot \frac{1+z^{-1}}{1-z^{-1}}
+    \]
+    \textbf{Criterio de muestreo:}
+    \[
+    f_s = \frac{1}{T_s} \geq 10 \cdot BW_{\text{cont}}, \quad T_s = \frac{1}{10 \times 796} \approx 1.25 \times 10^{-4} \text{ s}
+    \]
+
+    \begin{columns}
+        \column{0.5\textwidth}
+        \textbf{Controlador PID Discretizado}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Imagenes/Controlador_PID_discreto.png}
+            \caption{PID discretizado.}
+            \label{fig:Controlador_PID_discreto}
+        \end{figure}
+
+        \column{0.5\textwidth}
+        \textbf{Observador de Estado Discreto}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Imagenes/Observador_PID_discreto.png}
+            \caption{Observador discretizado.}
+            \label{fig:observador_estado_discreto}
+        \end{figure}
+    \end{columns}
+\end{frame}
+
+
+% Slide 5: Comparación de Respuestas del Controlador Discretizado
+\begin{frame}{Comparación de Respuestas del Controlador Discretizado}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \textbf{Respuesta con \(T_s = 1.25 \times 10^{-4} \text{ s}\)}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Imagenes/RespuestaControladorDiscretizadoT125E-4.png}
+            \caption{Respuesta degradada debido a frec. de muestreo insuficiente.}
+            \label{fig:RespuestaControladorDiscretizadoT125E-4}
+        \end{figure}
+
+        \column{0.5\textwidth}
+        \textbf{Respuesta con \(T_s = 3.14 \times 10^{-5} \text{ s}\)}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Imagenes/RespuestaControladorDiscretizadoT314E-5.png}
+            \caption{Respuesta mejorada sin degradación en el seguimiento de la consigna.}
+            \label{fig:RespuestaControladorDiscretizadoT314E-5}
+        \end{figure}
+    \end{columns}
+\end{frame}
+
+% Slide 6: Mejora en la Consigna de Movimiento
+\begin{frame}{\small Mejora en la Consigna de Movimiento mediante Perfiles Trapezoidales de Aceleración}
+    \textbf{Problemas diseño original:}  
+    \begin{itemize}
+        \item Discontinuidades en la velocidad y aceleraciones escalonadas.
+        \item Ancho de banda infinito → Sensores y actuadores NI con ancho de banda limitado → Problemas sistema control: no lo suficientemente rápido para cambios bruscos de aceleración.
+    \end{itemize}
+    
+    \textbf{Solución:} Implementación de un perfil trapezoidal de aceleración, logrando:
+    \begin{itemize}
+        \item Consigna de aceleración continua.
+        \item Curva de velocidad y posición más suave.
+    \end{itemize}
+\end{frame}
+
+% Slide 7: Perfiles de Posición y Velocidad Trapezoidal
+\begin{frame}{Perfiles de Posición y Velocidad Trapezoidal}
+
+    \begin{figure}
+        \centering
+        \begin{minipage}{0.48\textwidth}
+            \includegraphics[width=\textwidth]{Imagenes/PosicionTrapezoidal.png}
+            \caption{Perfil de posición trapezoidal con velocidad escalonada.}
+            \label{fig:PosicionTrapezoidal}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.48\textwidth}
+            \includegraphics[width=\textwidth]{Imagenes/VelocidadTrapezoidal.png}
+            \caption{Perfil de velocidad trapezoidal con aceleración escalonada.}
+            \label{fig:VelocidadTrapezoidal}
+        \end{minipage}
+    \end{figure}
+\end{frame}
+
+% Slide 8: Cálculo de la Altura de los Perfiles
+\begin{frame}{Cálculo de la Altura de los Perfiles} 
+    \textbf{Parámetros definidos para la consigna de aceleración:}
+    \begin{itemize}
+        \item \( t_{r1} \) → Tiempo de rampa de velocidad (\( t_{r1} < \frac{5}{2} \) s).
+        \item \( t_{r2} \) → Tiempo de rampa de aceleración (\( t_{r2} = \frac{t_{r1}}{5} \)).
+    \end{itemize}
+
+    \textbf{Cálculo de la altura de velocidad:}
+    \[
+    h_1 = \frac{4 \pi}{10 - 2 t_{r1}}
+    \]
+    \textbf{Cálculo de la altura de aceleración:}
+    \[
+    h_2 = \frac{2h_1}{2\cdot t_{r1} - 2\cdot t_{r2}}
+    \]
+    
+    \textbf{Impacto del ajuste de \( t_{r1} \):}
+    \begin{itemize}
+        \item Si \( t_{r1} \) es pequeño → Perfil más parecido a un escalón.
+        \item Si \( t_{r1} \) es grande → Mayor suavizado, pero también picos más altos.
+    \end{itemize}
+\end{frame}
+
+% Slide 9: Consigna de Aceleración Suavizada
+\begin{frame}{Consigna de Aceleración Suavizada}\scriptsize
+    \textbf{Consigna final de posición:}
+    \[
+    q_1^*(t) = \int_0^t \left( \int_0^\tau a^*(\xi) d\xi \right) d\tau
+    \]
+    \textbf{Beneficios:}
+    \begin{itemize}
+        \item Suaviza completamente la velocidad y la aceleración.
+        \item Reduce los picos de corriente y torque en la máquina eléctrica.
+        \item Asegura que la consigna de posición sea alcanzada sin problemas.
+    \end{itemize}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\textwidth]{Imagenes/AceleracionTrapezoidal.png}
+        \caption{Consigna suavizada con trapecios de aceleración.}
+        \label{fig:AceleracionTrapezoidal}
+    \end{figure}
+\end{frame}
+
+% Slide 10: Conclusiones Finales
+\begin{frame}{Análisis de Consigna}
+    \textbf{Resultados obtenidos con la nueva consigna:}
+    \begin{itemize}
+        \item Reducción de los transitorios abruptos en la aceleración y el torque.
+        \item Disminución de los picos de corriente y tensiones en la máquina.
+        \item Mejor aprovechamiento del ancho de banda de sensores y actuadores.
+    \end{itemize}
+
+    \textbf{Conclusión:}  
+    \begin{itemize}
+        \item Un mal diseño de consignas puede saturar el sistema de control.
+        \item La implementación de perfiles trapezoidales de aceleración garantiza estabilidad.
+        \item La elección de \( t_{r1} \) y \( t_{r2} \) es clave para obtener un equilibrio entre suavizado y desempeño.
+    \end{itemize}
+\end{frame}
+
+
 % Slide: Conclusión
 \begin{frame}{Conclusión}
 \textbf{Logros:}

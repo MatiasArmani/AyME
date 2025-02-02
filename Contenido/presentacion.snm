@@ -58,3 +58,12 @@
 \beamer@slide {fig:AcercamientoErrorPosicionPerturbacionPID}{124}
 \beamer@slide {fig:temperatura_sin_perturbacion}{125}
 \beamer@slide {fig:temperatura_con_perturbacion}{126}
+\beamer@slide {fig:Controlador_Final}{143}
+\beamer@slide {fig:Planta_Actuadores_Sensores_Final}{143}
+\beamer@slide {fig:Controlador_PID_discreto}{144}
+\beamer@slide {fig:observador_estado_discreto}{144}
+\beamer@slide {fig:RespuestaControladorDiscretizadoT125E-4}{145}
+\beamer@slide {fig:RespuestaControladorDiscretizadoT314E-5}{145}
+\beamer@slide {fig:PosicionTrapezoidal}{147}
+\beamer@slide {fig:VelocidadTrapezoidal}{147}
+\beamer@slide {fig:AceleracionTrapezoidal}{149}

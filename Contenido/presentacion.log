@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.18)  2 FEB 2025 11:52
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.8.18)  2 FEB 2025 13:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2498,12 +2498,166 @@ Overfull \vbox (13.17314pt too high) detected at line 2626
 [133
 
 ]
+File: Imagenes/Bloques_Modulador_Tension_No_Ideal.png Graphic file (type bmp)
+<Imagenes/Bloques_Modulador_Tension_No_Ideal.png>
+
+Overfull \vbox (10.8254pt too high) detected at line 2653
+ []
+
+
 
 [134
 
 ]
+File: Imagenes/Posicion_Velocidad_ModuladorTNL.png Graphic file (type bmp)
+<Imagenes/Posicion_Velocidad_ModuladorTNL.png>
+
+Overfull \vbox (5.19003pt too high) detected at line 2667
+ []
+
+
 
 [135
+
+]
+File: Imagenes/Consignas_Tensiones_ModuladorTNL.png Graphic file (type bmp)
+<Imagenes/Consignas_Tensiones_ModuladorTNL.png>
+File: Imagenes/Corrientes_ModuladorTNL.png Graphic file (type bmp)
+<Imagenes/Corrientes_ModuladorTNL.png>
+
+
+[136
+
+]
+File: Imagenes/Tensiones_Aplicadas_ModuladorTNL.png Graphic file (type bmp)
+<Imagenes/Tensiones_Aplicadas_ModuladorTNL.png>
+File: Imagenes/Acercamiento_Tensiones_Aplicadas_ModuladorTNL.png Graphic file (
+type bmp)
+<Imagenes/Acercamiento_Tensiones_Aplicadas_ModuladorTNL.png>
+
+Overfull \vbox (47.1996pt too high) detected at line 2710
+ []
+
+
+
+[137
+
+]
+File: Imagenes/Temperatura_Estator_ModuladorTNI.png Graphic file (type bmp)
+<Imagenes/Temperatura_Estator_ModuladorTNI.png>
+
+Overfull \vbox (13.29565pt too high) detected at line 2720
+ []
+
+
+
+[138
+
+]
+File: Imagenes/Posicion_Velocidad_ModuladorTNI.png Graphic file (type bmp)
+<Imagenes/Posicion_Velocidad_ModuladorTNI.png>
+
+Overfull \vbox (27.2872pt too high) detected at line 2735
+ []
+
+
+
+[139
+
+]
+File: Imagenes/Consignas_Tensiones_ModuladorTNImejorado.png Graphic file (type 
+bmp)
+<Imagenes/Consignas_Tensiones_ModuladorTNImejorado.png>
+File: Imagenes/Corrientes_ModuladorTNImejorado.png Graphic file (type bmp)
+<Imagenes/Corrientes_ModuladorTNImejorado.png>
+
+
+[140
+
+]
+
+[141
+
+]
+
+[142
+
+]
+File: Imagenes/Controlador_Final.png Graphic file (type bmp)
+<Imagenes/Controlador_Final.png>
+File: Imagenes/Planta_Actuadores_Sensores_Final.png Graphic file (type bmp)
+<Imagenes/Planta_Actuadores_Sensores_Final.png>
+
+
+[143
+
+]
+File: Imagenes/Controlador_PID_discreto.png Graphic file (type bmp)
+<Imagenes/Controlador_PID_discreto.png>
+File: Imagenes/Observador_PID_discreto.png Graphic file (type bmp)
+<Imagenes/Observador_PID_discreto.png>
+
+Overfull \vbox (8.5118pt too high) detected at line 2835
+ []
+
+
+
+[144
+
+]
+File: Imagenes/RespuestaControladorDiscretizadoT125E-4.png Graphic file (type b
+mp)
+<Imagenes/RespuestaControladorDiscretizadoT125E-4.png>
+File: Imagenes/RespuestaControladorDiscretizadoT314E-5.png Graphic file (type b
+mp)
+<Imagenes/RespuestaControladorDiscretizadoT314E-5.png>
+
+Overfull \vbox (9.97614pt too high) detected at line 2859
+ []
+
+
+
+[145
+
+]
+
+[146
+
+]
+File: Imagenes/PosicionTrapezoidal.png Graphic file (type bmp)
+<Imagenes/PosicionTrapezoidal.png>
+File: Imagenes/VelocidadTrapezoidal.png Graphic file (type bmp)
+<Imagenes/VelocidadTrapezoidal.png>
+
+
+[147
+
+]
+
+[148
+
+]
+File: Imagenes/AceleracionTrapezoidal.png Graphic file (type bmp)
+<Imagenes/AceleracionTrapezoidal.png>
+
+Overfull \vbox (11.3673pt too high) detected at line 2938
+ []
+
+
+
+[149
+
+]
+
+[150
+
+]
+
+[151
+
+]
+
+[152
 
 ]
 \tf@nav=\write6
@@ -2544,12 +2698,12 @@ Package rerunfilecheck Info: Checksums for `presentacion.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28699 strings out of 409029
- 575187 string characters out of 5756741
+ 28913 strings out of 409029
+ 583843 string characters out of 5756741
  1954612 words of memory out of 5000000
- 50747 multiletter control sequences out of 15000+600000
+ 50942 multiletter control sequences out of 15000+600000
  575052 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,27n,123p,1068b,812s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on presentacion.pdf (135 pages).
+Output written on presentacion.pdf (152 pages).
