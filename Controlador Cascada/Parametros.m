@@ -62,9 +62,13 @@ Ts_0 = 20;
 Rs_condicion = 0;
 
 %% Ganancias de Controlador 
-b_a = 1;
-K_sa = 1;
-K_sia = 1;
+% b_a = 1;
+% K_sa = 1;
+% K_sia = 1;
+
+b_a = 0.039/10;
+K_sa = 31.656/100;
+K_sia = 10129.78/1000;
 
 %% Observador
 Ke_w = 1.024e7;
@@ -102,7 +106,7 @@ Sni_D_T = 0;
 %Parámetros para modulador de tensión No Ideal
 wn_mod = 30000;
 zita_mod = 1;
-V_slmax = 200;
+V_slmax = 48;
 
 % Matrices para modulador de tension No Ideal
 Mni_A = [0 -1; wn_mod^2 -2*zita_mod*wn_mod];
@@ -111,7 +115,7 @@ Mni_C = [0 1];
 Mni_D = 0;
 
 %% Tiempo de muestreo para controlador discretizado
-Ts = 1.25E-3; 
+Ts = 1.25E-2; 
 
 %Ts = 3.14E-5;
 %Ts = 1.25E-5; 
