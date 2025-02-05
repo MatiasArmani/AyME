@@ -108,7 +108,7 @@ Sni_C_T = 1/tau;
 Sni_D_T = 0;
 
 %Parámetros para modulador de tensión No Ideal
-wn_mod = 6000;
+wn_mod = 25000;
 zita_mod = 1;
 V_slmax = 48;
 
@@ -119,9 +119,9 @@ Mni_C = [0 1];
 Mni_D = 0;
 
 %% Tiempo de muestreo para controlador discretizado
-%Ts = 1.25E-4; 
+Ts = 1.25E-4; 
 
-Ts = 3.14E-5;
+%Ts = 3.14E-5;
 %Ts = 1.25E-5; 
 
 function f = frecuencia(f_e,elemento)
