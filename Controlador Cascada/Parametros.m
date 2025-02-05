@@ -66,9 +66,9 @@ Rs_condicion = 0;
 % K_sa = 1;
 % K_sia = 1;
 
-b_a = 0.039/10;
-K_sa = 31.656/100;
-K_sia = 10129.78/1000;
+b_a = 0.039;
+K_sa = 31.656*20;
+K_sia = 10129.78;
 
 %% Observador
 Ke_w = 1.024e7;
@@ -104,7 +104,7 @@ Sni_C_T = 1/tau;
 Sni_D_T = 0;
 
 %Parámetros para modulador de tensión No Ideal
-wn_mod = 30000;
+wn_mod = 20000;
 zita_mod = 1;
 V_slmax = 48;
 
@@ -115,9 +115,9 @@ Mni_C = [0 1];
 Mni_D = 0;
 
 %% Tiempo de muestreo para controlador discretizado
-Ts = 1.25E-2; 
+%Ts = 1.25E-4; 
 
-%Ts = 3.14E-5;
+Ts = 3.14E-5;
 %Ts = 1.25E-5; 
 
 function f = frecuencia(f_e,elemento)
