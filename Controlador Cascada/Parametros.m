@@ -67,20 +67,24 @@ Rs_condicion = 0;
 % K_sia = 1;
 
 b_a = 0.039;
-K_sa = 31.656*20;
+K_sa = 31.656;
 K_sia = 10129.78;
 
 %% Observador
+%Ganancias PD:
+Ke_t = 6400;
 Ke_w = 1.024e7;
-Ke_t = 6.4e3;
-Ke_int = 3.2768e10;
+Ke_int = 0;
+% Ke_t = 9.6e3;
+% Ke_w = 3.072e7;
+% Ke_int = 3.2768e10;
 
 %% Sensores No Ideales
 % Parámetros para cada sensor
-wn_iabc = 30000;    % Frecuencia natural para sensores de corriente [rad/s] min= 25800
+wn_iabc = 15000;    % Frecuencia natural para sensores de corriente [rad/s] min= 25800
 xi_iabc = 1;       % Factor de amortiguamiento para sensores de corriente
 
-wn_pos = 30000;     % Frecuencia natural para sensor de posición [rad/s]
+wn_pos = 25000;     % Frecuencia natural para sensor de posición [rad/s]
 xi_pos = 1;        % Factor de amortiguamiento para sensor de posición
 
 tau = 0.1;          % Constante de tiempo para sensor de temperatura [s]
@@ -104,7 +108,7 @@ Sni_C_T = 1/tau;
 Sni_D_T = 0;
 
 %Parámetros para modulador de tensión No Ideal
-wn_mod = 20000;
+wn_mod = 6000;
 zita_mod = 1;
 V_slmax = 48;
 
